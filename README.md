@@ -7,15 +7,19 @@ Germany and Japan have excellent robotics researchers and industrial robotics co
 ## Challenge Description
 Within the Bots & Bento Challenge, competitors are tasked with designing and programming a robot that is able to locate, transport and stack standardized palettes containing the Japanese delicacy Bento. The rules are simple: given a pre-defined set of available hardware components, design your own robot and let it stack palettes as high and as efficiently as possible.
 
-- Duration: 4 days
-- Place: Yokohama, Japan
-- Registeration Open: February 29, 2024 11:59 pm
-- Start: May 13, 2024 12:00 am GMT+2
-- Apply: [Here](https://docs.google.com/forms/d/e/1FAIpQLSfIDB8EHTKZsTSxabpzjz0qU7LuDq8VqgYfEWqWLxOi16SeZA/viewform) 
-- General Contact: arne.rost@tum-venture-labs.de
-- Technical Contact: edwin@olive-robotics.com
+- 🗓️ Duration: 4 days
+- 📍 Place: Yokohama, Japan
+- 🗒️ Registeration Open: February 29, 2024 11:59 pm
+- 🗒️ Start: May 13, 2024 12:00 am GMT+2
+- 🔗 Apply: [Here](https://docs.google.com/forms/d/e/1FAIpQLSfIDB8EHTKZsTSxabpzjz0qU7LuDq8VqgYfEWqWLxOi16SeZA/viewform) 
+- 📧 General Contact: arne.rost@tum-venture-labs.de
+- 📧 Technical Contact: edwin@olive-robotics.com
 
+## Rulebook
 
+- 📘 [Rulebook 2024](docs/rulebook.md)
+
+## Intorduction
 Our goal is to drive innovation in autonomous material handling through a competition in which teams design and build robots using identical, pre-supplied robotics kits to perform pallet handling tasks within a specified area as part of our first challenge. 
 
 This first inaugural competition, co-organized by Olive Robotics, UTokyoIPC and TUM Venture Lab Robotics / AI, is a competitive platform for IEEE ICRA 2024, and is designed to foster innovation and practical skills among budding robotics professionals in the field of autonomous material handling. Within the Bots & Bento Challenge, competitors are tasked with designing and programming a robot that is able to locate, transport and stack standardized palettes containing the Japanese delicacy Bento. The rules are simple: given a pre-defined set of available hardware components, design your own robot and let it stack palettes as high and as efficiently as possible.
@@ -70,21 +74,21 @@ scoring announcement. Technical Support and Troubleshooting:
 ## Awards & Budget
 TUM Venture Lab Robotics / AI and UTokyo IPC will both share the burden of supplying the 12 teams with rented robotics kits, which will be returned by the teams to the hosts after the competition. TUM VL RAI will supply four complete kits and eight kits will be rented additionally for the teams. We will further sponsor a joint award for the best team. All qualified and participating teams will receive certificates of participation. Optionally, a visit to one or both entities in Munich and/or Tokyo for the winning team is under consideration.
 
-## Schedule
+## Schedule 2024
 
-| Date        | Event                                               |
+| Date     | Event                                               |
 |-------------|-----------------------------------------------------|
-| Jan. 4th, 2024 | - Public call for challenge participation<br>- Challenge info website online<br>- Application process starts |
-| Feb. 29th, 2024 | - Application deadline for competitors             |
-| Mar. 4th, 2024  | - Notification to participating teams<br>- Starting preparation to send out robot sample kits |
-| Mar. 15th, 2024 | - Shipment of sample kits to participants          |
-| Apr. 15th, 2024 | - Shipment of full robotics challenge kits to Japan and local storage |
-| May 12th, 2024  | - Venue setup by challenge organizers              |
-| May 13th, 2024  | - Welcoming challenge participants in Yokohama<br>- Day one of robot assembly |
-| May 14th, 2024  | - Day two of robot assembly                        |
-| May 15th, 2024  | - Challenge Session 1: “Highest Tower”             |
-| May 16th, 2024  | - Challenge Session 2: “Fastest Stacking”<br>- Award Ceremony |
-| May 17th, 2024  | - Disassembly of robots by challenge organizers and preparation of return of kits |
+| Jan.4th | - Public call for challenge participation<br>- Challenge info website online<br>- Application process starts |
+| Feb.29th  | - Application deadline for competitors             |
+| Mar.4th   | - Notification to participating teams<br>- Starting preparation to send out robot sample kits |
+| Mar.15th  | - Shipment of sample kits to participants          |
+| Apr.15th  | - Shipment of full robotics challenge kits to Japan and local storage |
+| May.12th   | - Venue setup by challenge organizers              |
+| May.13th   | - Welcoming challenge participants in Yokohama<br>- Day one of robot assembly |
+| May.14th   | - Day two of robot assembly                        |
+| May.15th   | - Challenge Session 1             |
+| May.16th   | - Challenge Session 2 <br>- Award Ceremony |
+| May.17th   | - Disassembly of robots by challenge organizers and preparation of return of kits |
 
 ## Safety Considerations
 The safety considerations for this challenge are relatively straightforward: as the arena is walled with robust barriers on each side and the machines will move at relatively low speed (~1m/s at max), it is very unlikely for a robot to escape the arena. Within the arena safety hazards might be represented by the robot or stacks of pallets falling over. Thus to avoid harm to visitors and the contestants, no one is allowed to enter the arena while a competition run is under way.
