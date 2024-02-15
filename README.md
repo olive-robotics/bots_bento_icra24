@@ -2,14 +2,19 @@
 
 Germany and Japan have excellent robotics researchers and industrial robotics companies. To further foster collaboration, the TUM Venture Lab Robotics / AI and the UTokyoIPC are hosting a new ICRA competition focusing on entrepreneurship and the goal of translating excellent research into new industrial applications.
 
+![1.png](/images/1.png "1.png")
+
 ## Challenge Description
 Within the Bots & Bento Challenge, competitors are tasked with designing and programming a robot that is able to locate, transport and stack standardized palettes containing the Japanese delicacy Bento. The rules are simple: given a pre-defined set of available hardware components, design your own robot and let it stack palettes as high and as efficiently as possible.
 
-Duration: 4 days
-Place: Yokohama, Japan
-Registeration Open: February 29, 2024 11:59 pm
-Apply: [Here](https://docs.google.com/forms/d/e/1FAIpQLSfIDB8EHTKZsTSxabpzjz0qU7LuDq8VqgYfEWqWLxOi16SeZA/viewform) 
-Start: May 13, 2024 12:00 am GMT+2
+- Duration: 4 days
+- Place: Yokohama, Japan
+- Registeration Open: February 29, 2024 11:59 pm
+- Start: May 13, 2024 12:00 am GMT+2
+- Apply: [Here](https://docs.google.com/forms/d/e/1FAIpQLSfIDB8EHTKZsTSxabpzjz0qU7LuDq8VqgYfEWqWLxOi16SeZA/viewform) 
+- General Contact: arne.rost@tum-venture-labs.de
+- Technical Contact: edwin@olive-robotics.com
+
 
 Our goal is to drive innovation in autonomous material handling through a competition in which teams design and build robots using identical, pre-supplied robotics kits to perform pallet handling tasks within a specified area as part of our first challenge. 
 
