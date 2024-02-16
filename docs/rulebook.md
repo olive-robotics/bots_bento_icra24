@@ -47,26 +47,30 @@ A panel of judges from Olive Robotics, TUM Venture Lab Robotics / AI, and UTokyo
 
 #### 3. General Rules
 
+General:
 - Robots must initiate from the specified starting area.
 - Robots are not permitted to exit the arena at any point.
+
 Hardware Compliance:
 - Only components listed in the “Hardware” section are permitted for robot construction.
 - Alteration or modification of provided hardware is prohibited. Time Constraints:
-- Each run has a time limit of maximum ten minutes.
+- Each run has a time limit of maximum 10 minutes.
 - Any uncompleted tasks post timeout will not be scored.
+
 Submission and Disassembly:
 - Teams must bring their assembled robots to the competition venue.
 - Post-competition, robots must be disassembled and provided hardware returned in the initial condition to the respective co-organizers (TUM VL RAI and UTokyo IPC)
 latest in two weeks after the competition. Scoring Criteria:
 - Points awarded based on the number (height) of the collected pallet tower, speed of stacking, order of pallet IDs, and adherence to design constraints.
 - Specific point values for each criterion will be disclosed prior to competition.
+
 Safety Compliance:
 - Robots must operate safely to ensure the welfare of all present.
 - Any unsafe behavior may result in disqualification.
+
 Judging and Appeals:
 - A panel of judges will evaluate the performance based on predefined criteria.
-- Teams have the right to appeal and must do so within a specified timeframe post
-scoring announcement. Technical Support and Troubleshooting:
+- Teams have the right to appeal and must do so within a specified timeframe post scoring announcement. Technical Support and Troubleshooting:
 - Limited technical support may be available during the competition.
 - Teams are expected to handle troubleshooting autonomously.
 
@@ -108,15 +112,27 @@ For more technical information regarding each olive components you can visit:
 
 https://docs.olive-robotics.com
 
-###### 3.1.3 Preliminary requirements per team
+###### 3.1.5 Preliminary requirements per team
 
 Each team should have a working laptop with [Ubuntu 22.04 Desktop](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview) and [ROS 2 Humble](https://docs.ros.org/en/humble/Installation.html) installed. The laptop should have at least one USB-C or USB 3.0 slot.
 
-###### 3.1.4 Example Robot
+###### 3.1.6 Example Robot
 
 ![2.png](/images/2.png "2.png")
 
-###### 3.1.5 Behavior and Safety
+You will be provided with the Olive ANT kit as the base for your robot. To enhance its capabilities, you are tasked with creatively installing an additional 2 cameras and 2 actuators. This modification aims to transform the passive base into a robot with high-level understanding and picking capabilities, enabling it to effectively transport and sort pallets within the competition arena. Your innovative integration of these components will be crucial in equipping the robot with the necessary tools to navigate, identify, and manipulate objects according to the competition's requirements.
+
+![2.png](/images/ant.png "2.png")
+
+###### 3.1.6.1
+
+Example robot with laptop, cameras, and hooking system
+
+![2.png](/images/a3.png "2.png")
+
+![2.png](/images/a2.png "2.png")
+
+###### 3.1.7 Behavior and Safety
 
 In general, all robots shall be operated with maximum safety in mind. Any robot operation must be such that a robot neither harms humans nor damages the environment. The used batteries shall be handled with care and all team members must be educated in the correct usage, charging and storage of the batteries of the team.
 
@@ -124,7 +140,7 @@ All robots must have an emergency stop button. The emergency stop has to be a ha
 
 ##### 3.2 Arena Example Environemnt
 
-![3.png](/images/3.png "3.png")
+![3.png](/images/a1.png "3.png")
 
 ###### 3.2.1 Floor
 
@@ -135,6 +151,9 @@ The floor is made of some firm material. This includes among others floors made 
 Virtual Walls are made of yellow/black tape and may never be crossed during a run. The arena doesn't contain Walls.
 
 ###### 3.2.3 Obstacles
+
+The arena will initially be free of obstacles, providing a clear path for the robots to navigate. However, for an added technical challenge, paper packaging boxes can be introduced into the arena. This inclusion is intended to increase the difficulty of the task, requiring robots to navigate around or interact with these obstacles as part of their pallet transport and sorting objectives.
+
 ###### 3.2.4 Tapes
 
 <img src="/images/14.png" alt="7.png" width="200" />
@@ -151,9 +170,11 @@ We will have start/end zone in the middle and on the edge of arena. It will be s
 
 ###### 3.2.6 Arena Layout
 
-The competition arena is a 5x5 meter clear space with barriers on its sides. It has designated starting and stacking areas. Standardized pallets are randomly scattered within the arena, each measuring 40x30 cm and labeled with localisation tags on top and sides indicatinguniqueids. Atfirsttheareaisclearandwithoutfurtherobstacles.Inthesecond challenge run, however, small obstacles with a size of up to 30x30x30cm are introduced into the area and must be avoided.
+The competition arena is a 5x6 meter clear space with barriers on its sides. It has designated starting and stacking areas. Standardized pallets are randomly scattered within the arena, each measuring 40x30 cm and labeled with localisation tags on top and sides indicatinguniqueids. 
 
-<img src="/images/Competition_A1_v0.png" alt="7.png" width="400" />
+Atfirsttheareaisclearandwithoutfurtherobstacles.Inthesecond challenge run, however, small obstacles with a size of up to 30x30x30cm are introduced into the area and must be avoided.
+
+![3.png](/images/a5.png "3.png")
 
 
 ###### 3.2.7 Start and Finish
@@ -245,7 +266,8 @@ The prep time of the next team begins once the arena state is declared as ready 
 During a run, the teamleader can restart the test execution once. Therefore he/she must say ’restart’, which stops the current run phase. The robot must be stopped using the emergency switches, which then allows the refs to reset the arena state. The remaining run time will be noted and used after the restart. Once the refs have finished resetting the arena, the performing team is brought back to their prep phase, which allows them to move the robot back to the start area and prepare it for the restarted run. A so called tactical call of a restart (e.g. to prevent a major collision) is allowed, because this rewards the teams knowledge about the robot. Note: When the first major collision occurs, the team can decide whether they stop the run or they restart the run
 
 ##### 4.11 Challenges
-###### 4.11.1 Pallet Ordering
+###### 4.11.1 Pallet Transport
+###### 4.11.1 Pallet Sorting
 ###### 4.11.2 Technical Challenge 
 ###### 4.11.3 Presentation
 
