@@ -82,18 +82,31 @@ Aside from the provided hardware, teams are allowed to 3D print passive parts to
 
 ###### 3.1.2 Given Robotic Components
 
-
 | Name     | Image                                               |
 |-------------|-----------------------------------------------------|
-| 6x oliveTM SERVO OLV-SRV01-S64 | ![5.png](/images/5.png "5.png") |
-| 2x oliveTM CAMERA OLV-CAM01-TP | <img src="/images/6.png" alt="6.png" width="190" /> |
-| 1x oliveTM IMU OLV-IMU01-13D | <img src="/images/7.png" alt="7.png" width="80" /> |
+| 6x oliveTM [SERVO OLV-SRV01-S64](https://docs.olive-robotics.com/hardware/servo/servo.html) | ![5.png](/images/5.png "5.png") |
+| 2x oliveTM [CAMERA OLV-CAM01-TP](https://docs.olive-robotics.com/hardware/camera/camera_01_tp.html) | <img src="/images/6.png" alt="6.png" width="190" /> |
+| 1x oliveTM [IMU OLV-IMU01-13D](https://docs.olive-robotics.com/hardware/imu/imu_01_13d_10x.html) | <img src="/images/7.png" alt="7.png" width="80" /> |
 | 4x oliveTM Omni Directional Wheels | ![8.png](/images/8.png "8.png") |
 | 12x oliveTM X-Bolt Module Connector | ![9.png](/images/9.png "9.png") |
 | 1x T-Slot Kit 20x20mm w/ connectors | ![10.png](/images/10.png "10.png") |
 | 1x T-Slot Kit 10x10mm w/ connectors | ![11.png](/images/11.png "11.png") |
 | 1x Set of USB-C Cables various lengths and 1x USB-C Hub | ![12.png](/images/12.png "12.png") |
 | 1x USB-C 65W PD Power Bank | ![13.png](/images/13.png "13.png") |
+
+###### 3.1.3 Simulation Content
+
+To be able to simulate the components in any simulation software the Universal Robot Description (URDF) files are available from this git repository.
+
+https://github.com/olive-robotics/olv_module_descriptions
+https://github.com/olive-robotics/olv_brackets_descriptions
+https://github.com/olive-robotics/olv_kit_descriptions
+
+###### 3.1.4 Documentation
+
+For more technical information regarding each olive components you can visit:
+
+https://docs.olive-robotics.com
 
 ###### 3.1.3 Preliminary requirements per team
 
@@ -104,7 +117,12 @@ Each team should have a working laptop with [Ubuntu 22.04 Desktop](https://ubunt
 ![2.png](/images/2.png "2.png")
 
 ###### 3.1.5 Behavior and Safety
-##### 3.2 Arena Environemnt
+
+In general, all robots shall be operated with maximum safety in mind. Any robot operation must be such that a robot neither harms humans nor damages the environment. The used batteries shall be handled with care and all team members must be educated in the correct usage, charging and storage of the batteries of the team.
+
+All robots must have an emergency stop button. The emergency stop has to be a hard stop mechanism, that ensures that the energy transfer to all actuators is stopped immediately and the robot halts. The mechanism must be a red emergency stop button that is clearly visible, easily accessible and per wire attached to the robot. It has to be easy accessible from at least 3 sides of the robot. A wireless emergency stop button is optional but not sufficient.
+
+##### 3.2 Arena Example Environemnt
 
 ![3.png](/images/3.png "3.png")
 
@@ -128,12 +146,30 @@ The red/white Tape (Tesa signal 5cm width) is considered as a Virtual Wall and h
 The yellow/black Tape (Tesa signal 5cm width) is considered as a Virtual Obstacles and has an infinite height. 
 
 ###### 3.2.5 Zones
+
+We will have start/end zone in the middle and on the edge of arena. It will be several placement zones for pallets which robot has to bring them there. The receive the extra score points the pallets has to match the location id. This zones will be marked with the red/white tape.
+
 ###### 3.2.6 Arena Layout
 
 The competition arena is a 5x5 meter clear space with barriers on its sides. It has designated starting and stacking areas. Standardized pallets are randomly scattered within the arena, each measuring 40x30 cm and labeled with localisation tags on top and sides indicatinguniqueids. Atfirsttheareaisclearandwithoutfurtherobstacles.Inthesecond challenge run, however, small obstacles with a size of up to 30x30x30cm are introduced into the area and must be avoided.
 
+<img src="/images/Competition_A1_v0.png" alt="7.png" width="400" />
+
+
 ###### 3.2.7 Start and Finish
+
+
+The robot's operation commences and concludes in the same square zone, strategically positioned on the arena's edge. This designated area serves as both the launching point for the robot's mission and the final destination where it returns to mark the completion of its tasks, emphasizing the significance of this singular location for both the beginning and end of the operation.
+
 ###### 3.2.8 Pallets
+
+During the competition, there will be a maximum of six pallets, each supported by three wheels for ease of movement. The robot's task involves either pushing or pulling these pallets to sort them into predefined locations. The starting position of each pallet within the arena is determined randomly, adding an element of unpredictability to the challenge. To facilitate identification and sorting, each pallet is equipped with an April Tag on both its front and back sides. These tags contain unique IDs, enabling the robot to accurately recognize and handle the pallets according to the competition's requirements.
+
+
+ |a     | b           |  c |
+ |-------------|-------------------------|----------------------------|
+ | <img src="/images/Wheel_PlasticBox_400х300_v2.png" alt="7.png" width="150" />         |       <img src="/images/2xWheel_PlasticBox_400х300_v2.png" alt="7.png" width="150" />                   |          <img src="/images/3xWheel_PlasticBox_400х300_v2.png" alt="7.png" width="150" />                   |
+
 ###### 3.2.9 April Tag 
 
 April tags might be used in the competition. This should allow teams to focus on other areas than object recognition by simplifying the detection of pallets. 
@@ -162,7 +198,13 @@ Teams and team members are expected to maintain a friendly and cooperative atmos
 
 ##### 4.4 Competition Procedure
 ##### 4.5 Time Schedule
+
+A detailed schedule for sessions will be available locally, providing teams with their specific time slots for robot testing and main run.
+
 ##### 4.6 Practice Slots
+
+Scheduled practice time slots will be made available for each team, allowing them the opportunity to test their robots in the competition environment. These practice sessions will be announced locally, providing teams with the necessary information to plan and prepare for their designated testing times. This arrangement ensures that all participants have equal access to the arena for fine-tuning their robots and strategizing based on the actual competition setup.
+
 ##### 4.7 Competition Phases
 
 <img src="/images/17.png" alt="7.png" width="500" />
