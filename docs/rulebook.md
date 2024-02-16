@@ -102,15 +102,15 @@ Aside from the provided hardware, teams are allowed to 3D print passive parts to
 
 To be able to simulate the components in any simulation software the Universal Robot Description (URDF) files are available from this git repository.
 
-https://github.com/olive-robotics/olv_module_descriptions
-https://github.com/olive-robotics/olv_brackets_descriptions
-https://github.com/olive-robotics/olv_kit_descriptions
+- https://github.com/olive-robotics/olv_module_descriptions
+- https://github.com/olive-robotics/olv_brackets_descriptions
+- https://github.com/olive-robotics/olv_kit_descriptions
 
 ###### 3.1.4 Documentation
 
 For more technical information regarding each olive components you can visit:
 
-https://docs.olive-robotics.com
+- https://docs.olive-robotics.com
 
 ###### 3.1.5 Preliminary requirements per team
 
@@ -186,10 +186,17 @@ The robot's operation commences and concludes in the same square zone, strategic
 
 During the competition, there will be a maximum of six pallets, each supported by three wheels for ease of movement. The robot's task involves either pushing or pulling these pallets to sort them into predefined locations. The starting position of each pallet within the arena is determined randomly, adding an element of unpredictability to the challenge. To facilitate identification and sorting, each pallet is equipped with an April Tag on both its front and back sides. These tags contain unique IDs, enabling the robot to accurately recognize and handle the pallets according to the competition's requirements.
 
+Pallets might have different hights as shown below:
+
 
  |a     | b           |  c |
  |-------------|-------------------------|----------------------------|
  | <img src="/images/Wheel_PlasticBox_400х300_v2.png" alt="7.png" width="150" />         |       <img src="/images/2xWheel_PlasticBox_400х300_v2.png" alt="7.png" width="150" />                   |          <img src="/images/3xWheel_PlasticBox_400х300_v2.png" alt="7.png" width="150" />                   |
+
+###### 3.2.8.1 
+
+Hooking system and the installed April tag example.
+![3.png](/images/a4.png "3.png")
 
 ###### 3.2.9 April Tag 
 
@@ -281,10 +288,10 @@ During a run, the teamleader can restart the test execution once. Therefore he/s
 
 #### 6. References
 
-https://docs.olive-robotics.com
-www.olive-robotics.com
-www.ros.org
-www.2024.ieee-icra.org
+- https://docs.olive-robotics.com
+- www.olive-robotics.com
+- www.ros.org
+- www.2024.ieee-icra.org
 
 
 
