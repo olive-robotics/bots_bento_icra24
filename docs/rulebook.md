@@ -31,6 +31,22 @@ howpublished = {\url{https://github.com/olive-robotics/olv_bots_bento_icra24/doc
 #### 2. Introduction
 Within the Bots & Bento Challenge, competitors are tasked with designing and programming a robot that is able to locate, transport and sort standardized palettes containing the Japanese delicacy Bento. The rules are simple: given a pre-defined set of available hardware components, design your own robot and let it carry and sort palettes as high and as efficiently as possible.
 
+##### History
+
+<img src="/images/bento.webp" alt="7.png" width="200" />
+
+In a world where technology and culinary arts blend into the fabric of daily life, a cutting-edge competition emerges, set in the near future where dense warehouse management systems are the norm. This competition, known as "Bots & Bento", is not just a contest; it's a visionary project designed to revolutionize how food is managed in warehouses across the globe, using advanced robotics and artificial intelligence.
+
+The warehouses are vast, filled with stacks upon stacks of pallets, each bearing bento boxes of different types: vegetarian, seafood, beef, and chicken. Each category must be sorted accurately, a task that would be daunting for humans alone. But this is the age of robotics, where precision and efficiency are paramount.
+
+"The Great Bento Sort in Bots & Bento" challenges teams to develop sophisticated robots equipped with the latest in motion planning, computer vision, and AI development. These robots must navigate the labyrinthine aisles of the warehouse, identifying and sorting bento boxes with unerring accuracy. The competition's objective is two-fold: to advance the technology of automated systems in large-scale food management and to foster innovation in AI that can discern between food types, understanding textures, colors, and packaging with the same discernment as a human expert.
+
+In this scenario, the imaginative use of bento-filled pallets is a metaphor for the diverse range of products that such robots will handle in the real world. It's a testbed for innovation, a showcase of human ingenuity, and a tantalizing glimpse into a future where technology and tradition combine to create a world that is more organized, more efficient, and more delicious.
+
+##### Example Demo
+
+![1.png](/images/cover.gif "1.png")
+
 ##### 2.1 Organization of the League
 
 A panel of judges from Olive Robotics, TUM Venture Lab Robotics / AI, and UTokyoIPC will evaluate the competitors’ performance based on the above mentioned criteria and reserve the right to grant extra points or penalties based on transparent criteria.
@@ -112,7 +128,7 @@ For more technical information regarding each olive components you can visit:
 
 - https://docs.olive-robotics.com
 
-###### 3.1.5 Preliminary requirements per team
+###### 3.1.5 ⚠️ Preliminary requirements per team
 
 Each team should have a working laptop with [Ubuntu 22.04 Desktop](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview) and [ROS 2 Humble](https://docs.ros.org/en/humble/Installation.html) installed. The laptop should have at least one USB-C or USB 3.0 slot.
 
@@ -120,7 +136,7 @@ Each team should have a working laptop with [Ubuntu 22.04 Desktop](https://ubunt
 
 ![2.png](/images/2.png "2.png")
 
-You will be provided with the Olive ANT kit as the base for your robot. To enhance its capabilities, you are tasked with creatively installing an additional 2 cameras and 2 actuators. This modification aims to transform the passive base into a robot with high-level understanding and picking capabilities, enabling it to effectively transport and sort pallets within the competition arena. Your innovative integration of these components will be crucial in equipping the robot with the necessary tools to navigate, identify, and manipulate objects according to the competition's requirements.
+You will be provided with the Olive [ANT kit](https://docs.olive-robotics.com/kits/ant/ant.html) as the base for your robot. To enhance its capabilities, you are tasked with creatively installing an additional 2 cameras and 2 actuators. This modification aims to transform the passive base into a robot with high-level understanding and picking capabilities, enabling it to effectively transport and sort pallets within the competition arena. Your innovative integration of these components will be crucial in equipping the robot with the necessary tools to navigate, identify, and manipulate objects according to the competition's requirements.
 
 ![2.png](/images/ant.png "2.png")
 
@@ -206,7 +222,7 @@ The April Tags measure 40mm × 40mm and have an encoding taken from the 36h11 Ap
 
 <img src="/images/15.png" alt="7.png" width="200" />
 
-April Tags can be easy generated. The usage of any ROS package to identify the April Tag is allowed. For example the April Tag ROS package can easy be adapted to be used within the competition. Example April Tags out of the April Tag Family 36h11 are shown:
+April Tags can be easy generated. The usage of any ROS package to identify the April Tag is allowed. For example the [April Tag ROS](https://wiki.ros.org/apriltag_ros) package can easy be adapted to be used within the competition. Example April Tags out of the April Tag Family 36h11 are shown:
 
 <img src="/images/16.png" alt="7.png" width="500" />
 
@@ -235,7 +251,17 @@ Scheduled practice time slots will be made available for each team, allowing the
 
 ##### 4.7 Competition Phases
 
-<img src="/images/17.png" alt="7.png" width="500" />
+| Phase      | Do                                   | Do Not                                     |
+|------------|--------------------------------------|--------------------------------------------|
+| Prep Phase | move robot to start pose           |  hardcode solutions                       |
+|            | prepare task execution             |  record test-specific data                |
+|            | clear robot memory                 |                                            |
+| Run Phase  | nothing / watch the run            |  control the robot                        |
+|            | (unplug LAN cable)                 | interfere with the robot                 |
+|            |                                      | enter the arena                          |
+| End Phase  | stop robot autonomy                |                                      |
+|            | move robot out           |            |
+
 
 ###### 4.7.1 Preparation Phase
 During the prep phase, teams are allowed to move their robot from the parc ferm´e to the defined start pose in the arena either by hand or by carefully driving manually. They should prepare their robot for their run and can therefore remote access the robot and/or make minor changes. It is explicitly forbidden to hardcode solutions for specific requirements of a test during this phase (e.g. drawing position of obstacles in the map). Also, if the robot passes and detects obstacles during this phase, they must be erased from the memory (e.g. clear costmap) unless they can be detected from the START location. The TC might disqualify teams that try to gain unfair advantages from the current or even the following tests.
@@ -272,19 +298,68 @@ The prep time of the next team begins once the arena state is declared as ready 
 
 During a run, the teamleader can restart the test execution once. Therefore he/she must say ’restart’, which stops the current run phase. The robot must be stopped using the emergency switches, which then allows the refs to reset the arena state. The remaining run time will be noted and used after the restart. Once the refs have finished resetting the arena, the performing team is brought back to their prep phase, which allows them to move the robot back to the start area and prepare it for the restarted run. A so called tactical call of a restart (e.g. to prevent a major collision) is allowed, because this rewards the teams knowledge about the robot. Note: When the first major collision occurs, the team can decide whether they stop the run or they restart the run
 
-##### 4.11 Challenges
-###### 4.11.1 Pallet Transport
-###### 4.11.1 Pallet Sorting
-###### 4.11.2 Technical Challenge 
-###### 4.11.3 Presentation
+#### 4. Competition
 
-#### 5. Scoring and Raking
+The competition consists of two main runs per team, along with a technical challenge and a presentation round.
+
+##### 4.11 Challenges
+###### 4.11.1 🏁 Pallet Transport
+In the first run, teams will navigate their Autonomous Mobile Robot (AMR) in an arena free of obstacles, except for the pallets themselves. The robot must select any one of the six pallets and transport it to a designated park zone. The task is to be completed within a maximum time of 6 minutes. Completing this task will grant the team the full score for this challenge, with time efficiency being a crucial factor.
+
+###### 4.11.2 🏁 Pallet Sorting
+The robot's objective is to sort all six pallets to their corresponding park zones according to their ID in 16 minutes. While placing the pallets in any park zone is required, teams will earn extra points for parking the pallets in order of their ID. Transporting only 1 pallet with correct ID is also accetable but the team will receive minimum score. 
+
+###### 4.11.3 🏁 Technical Challenge
+Teams have the opportunity to present a technical showcase demonstrating a key feature or creative aspect of their system. Proposals can include handling static or dynamic obstacles, such as people moving within the arena, to exhibit the robot's capabilities in max 10 minutes. The creativity and problem solving has 40%, running a complete task is 30%, and robot design is in general has 30%. 
+
+###### 4.11.4 🧑‍💻 Presentation
+Each team has 10 minutes to pitch their approach to solving the challenges. They will introduce their team and explain their strategies and solutions. The presentation may be recorded and published online to highlight the open nature of the competition and share findings and results. Scientific achivement / engineering solution 30%, overal presentation skills 30%, Teamwork has 40% of the points. 
+
+#### 5. Scoring and Ranking
+The competition spans two days, with a total of 12 hours available for all runs and the award ceremony. There are six teams in total.
+
 ##### 5.1 Scoring
 ###### 5.1.1 Scores
-###### 5.1.1 Penalties
-###### 5.1.2 Colissions
+Teams will be scored on the speed and efficiency of completing the Pallet Transport and Pallet Sorting challenges. Extra points are awarded for stacking pallets in order of their ID during the sorting challenge. 
+
+| Challenge                | Task Completion Score | Time-based Score (Formula)                  | Extra Points for Sorting |
+|--------------------------|-----------------------|---------------------------------------------|--------------------------|
+| 1 Pallet Transport         | 35 points             | `5 * (6 - (int)(time in min))`                     |                       | 60 points              |
+| 6 Pallets Transport / Sorting           | if the team sort all 6 pallets, 200 points extra            | `10 * (16 - (int)(time in min))`                   | 25 points per pallet  / 50 points per pallet with correct ID   | 
+| Technical Challenge      | 150 points            |                                          |                       | 
+| Presentation             | 150 points            |                                          |                       | 
+
+*Note: The time-based score formula adds points for each minute saved under the maximum allowed time. For example, completing the Pallet Transport in 3.5 minutes would yield an additional `5 * (6 - (int)(3.5)) = 15` points.*
+
+*Note: The time-based score minimum is zero and it will not go for negative.*
+
+###### 5.1.2 🚫 Penalties
+Penalties are incurred for various infractions, including:
+- Any collision with pallets.
+- The robot exiting the competition arena, marked by yellow and black tape.
+- Multiple requests for resets. One reset is permitted without penalty, but subsequent resets will result in score deductions.
+
+| Infraction               | Penalty Points |
+|--------------------------|----------------|
+| Collision with pallets   | -10 points      |
+| Exiting the arena (and come back)       | -20 points      |
+| Second reset request     | -15 points      |
+| Each additional reset    | -25 points each |
+
+*Note: The first reset request does not incur a penalty.*
+
 ###### 5.1.3 Restarts
-##### 5.5 Ranking
+Teams are allowed one restart without penalty. Additional restarts will incur penalties, which will impact the team's total score.
+
+##### 5.2 🏅 Ranking
+Teams will be ranked based on their overall total score accumulated over the two days of competition. The top three teams will be announced and awarded as the best in the competition.
+
+*Example: 
+- If a team completes the Pallet Transport in 2.5 minutes, they would receive 35 points for task completion and an additional `5 * (6 - (int)(2.5)) = 5 * 4 = 20` points for time saved, totaling 55 points for this challenge.
+- In the 6 Pallets Transport / Sorting challenge, if they manage to sort all 6 pallets with correct IDs in 7.5 minutes, they would earn `10 * (16 - (int)(7.5)) = 10 * 9 = 90` points for time saved, 50 points for each of the 6 sorted pallets with correct IDs totaling 300 points, and an extra 200 points for sorting all 6, which sums up to a grand total of 580 points for this challenge. 
+- Combined with the Technical Challenge (150) and Presentation scores (150), they could earn up to an additional 300 points, assuming they perform exceptionally well in those areas.*
+
+"GOOD LUCK! ;)"
 
 #### 6. References
 
