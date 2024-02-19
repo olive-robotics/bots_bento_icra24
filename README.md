@@ -2,16 +2,14 @@
 
 Germany and Japan have excellent robotics researchers and industrial robotics companies. To further foster collaboration, the TUM Venture Lab Robotics / AI and the UTokyoIPC are hosting a new ICRA competition focusing on entrepreneurship and the goal of translating excellent research into new industrial applications.
 
-![1.png](/images/1.png "1.png")
+![1.png](/images/cover.gif "1.png")
 
 ## Challenge Description
 Within the Bots & Bento Challenge, competitors are tasked with designing and programming a robot that is able to locate, transport and sort standardized palettes containing the Japanese delicacy Bento. The rules are simple: given a pre-defined set of available hardware components, design your own robot and let it carry and sort palettes as high and as efficiently as possible.
 
-![1.png](/images/cover.gif "1.png")
-
 - 🗓️ Duration: 4 days
 - 📍 Place: Yokohama, Japan
-- 🗒️ Registeration Open: February 29, 2024 11:59 pm
+- 🗒️ Registration Deadline: March 17, 2024 11:59 pm
 - 🗒️ Start: May 13, 2024 12:00 am GMT+2
 - 🔗 Apply: [Here](https://docs.google.com/forms/d/e/1FAIpQLSfIDB8EHTKZsTSxabpzjz0qU7LuDq8VqgYfEWqWLxOi16SeZA/viewform) 
 - 📧 General Contact: arne.rost@tum-venture-labs.de
@@ -42,9 +40,9 @@ TUM Venture Lab Robotics / AI and UTokyo IPC will both share the burden of suppl
 | Date     | Event                                               |
 |-------------|-----------------------------------------------------|
 | Jan.4th | - Public call for challenge participation<br>- Challenge info website online<br>- Application process starts |
-| Feb.29th  | - Application deadline for competitors             |
-| Mar.4th   | - Notification to participating teams<br>- Starting preparation to send out robot sample kits |
-| Mar.15th  | - Shipment of sample kits to participants          |
+| Mar.17th  | - Application deadline for competitors (Extended!).             |
+| Mar.20th   | - Notification to participating teams<br>- |
+| Mar.22th  | - Shipment of sample kits to participants          |
 | Apr.15th  | - Shipment of full robotics challenge kits to Japan and local storage |
 | May.12th   | - Venue setup by challenge organizers              |
 | May.13th   | - Welcoming challenge participants in Yokohama<br>- Day one of robot assembly |
