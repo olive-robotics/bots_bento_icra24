@@ -33,7 +33,7 @@ Within the Bots & Bento Challenge, competitors are tasked with designing and pro
 
 ##### History
 
-<img src="/images/bento.webp" alt="7.png" width="200" />
+<img src="/images/klt.jpg" alt="7.png" width="200" />
 
 In a world where technology and culinary arts blend into the fabric of daily life, a cutting-edge competition emerges, set in the near future where dense warehouse management systems are the norm. This competition, known as "Bots & Bento", is not just a contest; it's a visionary project designed to revolutionize how food is managed in warehouses across the globe, using advanced robotics and artificial intelligence.
 
