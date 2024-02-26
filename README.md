@@ -19,7 +19,7 @@ Within the Bots & Bento Challenge, competitors are tasked with designing and pro
 
 - 📘 [Rulebook 2024](docs/rulebook.md)
 
-## Intorduction
+## Introduction
 Our goal is to drive innovation in autonomous material handling through a competition in which teams design and build robots using identical, pre-supplied robotics kits to perform pallet handling tasks within a specified area as part of our first challenge. 
 
 This first inaugural competition, co-organized by Olive Robotics, UTokyoIPC and TUM Venture Lab Robotics / AI, is a competitive platform for IEEE ICRA 2024, and is designed to foster innovation and practical skills among budding robotics professionals in the field of autonomous material handling. Within the Bots & Bento Challenge, competitors are tasked with designing and programming a robot that is able to locate, transport and stack standardized palettes containing the Japanese delicacy Bento. The rules are simple: given a pre-defined set of available hardware components, design your own robot and let it stack palettes as high and as efficiently as possible.
