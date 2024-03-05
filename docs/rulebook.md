@@ -31,7 +31,7 @@ howpublished = {\url{https://github.com/olive-robotics/olv_bots_bento_icra24/doc
 ```
 
 #### 2. Introduction
-Within the Bots & Bento Challenge, competitors are tasked with designing and programming a robot that is able to locate, transport and sort standardized KLTs (Euro container, also called Eurobox, Euro crate or KLT box, is an industrial stacking container conforming to the VDA 4500 standard.) containing the Japanese delicacy Bento. The rules are simple: given a pre-defined set of available hardware components, design your own robot and let it carry and sort KLTs as high and as efficiently as possible.
+Within the Bots & Bento Challenge, competitors are tasked with designing and programming a robot that is able to locate, transport and sort standardized KLTs ([also called Eurobox, or KLT box](https://en.wikipedia.org/wiki/Euro_container), is an industrial stacking container conforming to the VDA 4500 standard.) containing the Japanese delicacy Bento. The rules are simple: given a pre-defined set of available hardware components, design your own robot and let it carry and sort KLTs as high and as efficiently as possible.
 
 ##### History
 
@@ -96,7 +96,7 @@ Technical Support and Troubleshooting:
 ###### 3.1.1 Design and Contraints
 
 Maximum allowed robot size: 65x65x90 cm
-KLT size: 40x30x12cm
+[KLT](https://en.wikipedia.org/wiki/Euro_container) size: 40x30x12cm
 
 Robot hardware is temporarily provided by the challenge organizers (Olive Robotics supported by TUM VL RAI and UTokyo IPC) for the selected teams in the form of comprehensive robotic hardware kits of modular sensors, actuators and respective standardized connectors and power units. These modular robot components (servo motors, cameras, IMUs) are designed as interoperable and reconfigurable robot building blocks and natively speak ROS2 out-of-the-box. They can be treated as standalone Linux-based SMBs. Challenge participants are provided with the required documentation (datasheets, CAD, URDF, API docs, manuals) of the hardware along with a default robot design. However, participants are encouraged and rewarded for coming up with their own improved robot designs using the hardware. 
 
@@ -116,7 +116,8 @@ Furthermore teams are free to either use any stationary computer to control the 
 | 1x T-Slot Kit 20x20mm w/ connectors | ![10.png](/images/10.png "10.png") |
 | 1x T-Slot Kit 10x10mm w/ connectors | ![11.png](/images/11.png "11.png") |
 | 1x Set of USB-C Cables various lengths and 1x USB-C Hub | ![12.png](/images/12.png "12.png") |
-| 1x USB-C 65W PD Power Bank | ![13.png](/images/13.png "13.png") |
+| 1x USB-C 65W PD Power Bank | <img src="/images/13.png" alt="13.png" width="150" /> |
+| Standard EMS Button | <img src="/images/ems.png" alt="ems.png" width="100" /> |
 
 ###### 3.1.3 Simulation Content
 
@@ -134,7 +135,7 @@ For more technical information regarding each olive components you can visit:
 
 ###### 3.1.5 ⚠️ Preliminary requirements per team
 
-Each team should have a working laptop with [Ubuntu 22.04 Desktop](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview) and [ROS 2 Humble](https://docs.ros.org/en/humble/Installation.html) installed. The laptop should have at least one USB-C or USB 3.0 slot.
+Each team should have a working laptop with [Ubuntu 22.04 Desktop](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview) and [ROS 2 Humble](https://docs.ros.org/en/humble/Installation.html) installed. The laptop should have at least one USB-C or USB-A 2.0/3.0 slot.
 
 ###### 3.1.6 Example Robot
 
@@ -156,43 +157,46 @@ Example robot with laptop, cameras, and hooking system
 
 In general, all robots shall be operated with maximum safety in mind. Any robot operation must be such that a robot neither harms humans nor damages the environment. The used batteries shall be handled with care and all team members must be educated in the correct usage, charging and storage of the batteries of the team.
 
-All robots must have an emergency stop button. The emergency stop has to be a hard stop mechanism, that ensures that the energy transfer to all actuators is stopped immediately and the robot halts. The mechanism must be a red emergency stop button that is clearly visible, easily accessible and per wire attached to the robot. It has to be easy accessible from at least 3 sides of the robot. A wireless emergency stop button is optional but not sufficient.
+All robots must have an emergency stop button. The emergency stop has to be a hard mechanism, that ensures that the energy transfer to all actuators is stopped immediately and the robot halts. The mechanism must be a red emergency stop button that is clearly visible, easily accessible and per wire attached to the robot. It has to be easy accessible from at least 3 sides of the robot. A wireless software-basedemergency stop button is optional but not sufficient.
 
 ##### 3.2 Arena Example Environemnt
 
-![3.png](/images/a1.png "3.png")
+![3.png](/images/a1-3.png "3.png")
 
 ###### 3.2.1 Floor
 
-The floor is made of some firm material. This includes among others floors made of concrete, screed, timber, plywood, chipboard, laminated boards, linoleum, PVC flooring, or carpet.
+The floor is made of some firm material. This includes among others floors made of concrete, screed, timber, plywood, chipboard, laminated boards, linoleum, PVC flooring, or carpet. 
 
 ###### 3.2.2 Virtual Walls
 
 Virtual Walls are made of yellow/black tape and may never be crossed during a run. The arena doesn't contain Walls.
 
+
+Robots may cross over the red/white tapes but must not entirely cross the boundaries of the main area delineated by the yellow/black tape. Partial crossing of the yellow/black tape area is permissible.
+
 ###### 3.2.3 Obstacles
 
-The arena will initially be free of obstacles, providing a clear path for the robots to navigate. However, for an added technical challenge, paper packaging boxes can be introduced into the arena. This inclusion is intended to increase the difficulty of the task, requiring robots to navigate around or interact with these obstacles as part of their KLT transport and sorting objectives.
+The arena will initially be free of obstacles, providing a clear path for the robots to navigate. However, for an added technical challenge, red paper packaging boxes can be introduced into the arena. This is up to teams and an idea for showcasing a demo for the technical challenge session.
 
 ###### 3.2.4 Tapes
 
 <img src="/images/14.png" alt="7.png" width="200" />
 
 ###### 3.2.4.1 Red/white Tape:
-The red/white Tape (Tesa signal 5cm width) is considered as a Virtual Wall and has an zero height. 
+The red/white Tape (Tesa signal 5cm width) is considered as a virtual seperator and has an zero height. 
 
 ###### 3.2.4.2 Yellow/black Tape:
-The yellow/black Tape (Tesa signal 5cm width) is considered as a Virtual Obstacles and has an infinite height. 
+The yellow/black Tape (Tesa signal 5cm width) is considered as a virtual wall and has an infinite height. 
 
 ###### 3.2.5 Zones
 
-We will have start/end zone in the middle and on the edge of arena. It will be several placement zones for KLTs which robot has to bring them there. The receive the extra score points the KLTs has to match the location id. This zones will be marked with the red/white tape.
+We will have start/end zone in the middle and on the edge of arena. It will be several placement zones for KLTs which robot has to bring them there. The receive the extra score points the KLTs has to match the location id. This zones will be marked with the red/white tape. The ground will be white.
 
 ###### 3.2.6 Arena Layout
 
-The competition arena is a 5x6 meter clear space with barriers on its sides. It has designated starting and stacking areas. Standardized KLTs are randomly scattered within the arena, each measuring 40x30 cm and labeled with localisation tags on top and sides indicatinguniqueids. 
+The competition arena is a 〜5x6 meter clear space. It has designated starting and sorting areas. 
 
-Atfirsttheareaisclearandwithoutfurtherobstacles.Inthesecond challenge run, however, small obstacles with a size of up to 30x30x30cm are introduced into the area and must be avoided.
+Standardized KLTs with free wheels are randomly scattered within the arena, each measuring 40x30 cm and labeled with localisation tags on top and sides indicating unique ids. 
 
 ![3.png](/images/a5.png "3.png")
 
@@ -204,7 +208,7 @@ The robot's operation commences and concludes in the same square zone, strategic
 
 ###### 3.2.8 KLTs
 
-During the competition, there will be a maximum of six KLTs, each supported by three wheels for ease of movement. The robot's task involves either pushing or pulling these KLTs to sort them into predefined locations. The starting position of each KLT within the arena is determined randomly, adding an element of unpredictability to the challenge. To facilitate identification and sorting, each KLT is equipped with an April Tag on both its front and back sides. These tags contain unique IDs, enabling the robot to accurately recognize and handle the KLTs according to the competition's requirements.
+During the competition, there will be a maximum of six KLTs, each supported by 4x wheels for ease of movement. The robot's task involves pulling these KLTs to sort them into predefined locations. The starting position of each KLT within the arena is determined randomly, adding an element of unpredictability to the challenge. To facilitate identification and sorting, each KLT is equipped with an April Tag on both its front and back sides. These tags contain unique IDs, enabling the robot to accurately recognize and handle the KLTs according to the competition's requirements.
 
 KLTs might have different hights as shown below:
 
@@ -213,10 +217,13 @@ KLTs might have different hights as shown below:
  |-------------|-------------------------|----------------------------|
  | <img src="/images/Wheel_PlasticBox_400х300_v2.png" alt="7.png" width="150" />         |       <img src="/images/2xWheel_PlasticBox_400х300_v2.png" alt="7.png" width="150" />                   |          <img src="/images/3xWheel_PlasticBox_400х300_v2.png" alt="7.png" width="150" />                   |
 
+⚠️ KLTs that are heavier will have a higher score weight and will be given priority in the sorting process. In this example (c = 3 > b = 2 > a = 1).
+
 ###### 3.2.8.1 
 
-Hooking system and the installed April tag example.
-![3.png](/images/a4.png "3.png")
+Hooking system and the installed April tag example. 2x April Tags will be installed on each side and on each KLT. In this example for two KLT it will be 16 Tags. The id for all Tags will be same and you can identify the side or front from distance between each April Tag. 
+
+![3.png](/images/a4-2.png "4.png")
 
 ###### 3.2.9 April Tag 
 
@@ -229,6 +236,10 @@ The April Tags measure 40mm × 40mm and have an encoding taken from the 36h11 Ap
 April Tags can be easy generated. The usage of any ROS package to identify the April Tag is allowed. For example the [April Tag ROS](https://wiki.ros.org/apriltag_ros) package can easy be adapted to be used within the competition. Example April Tags out of the April Tag Family 36h11 are shown:
 
 <img src="/images/16.png" alt="7.png" width="500" />
+
+
+⚠️ Pritable A4 size (36h11):
+https://github.com/rgov/apriltag-pdfs
 
 #### 4. Competition
 The competition is split into two runs for each team. In the first run, the arena is free of obstacles (other than the KLTs themselves). The task is for the robot to collect a KLT and carry to a predefined location. 
