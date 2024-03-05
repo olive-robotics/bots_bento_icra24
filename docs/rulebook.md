@@ -242,9 +242,12 @@ April Tags can be easy generated. The usage of any ROS package to identify the A
 https://github.com/rgov/apriltag-pdfs
 
 #### 4. Competition
-The competition is split into two runs for each team. In the first run, the arena is free of obstacles (other than the KLTs themselves). The task is for the robot to collect a KLT and carry to a predefined location. 
+The competition is split into three runs for each team. In the first run, the arena is free of obstacles (other than the KLTs themselves). The task is for the robot to collect a KLT and carry to a predefined location. 
 
-In the second run, small obstacles are introduced into the arena and the task is to sort 4 KLTs to 4 predefined locations acroding to their id. The challenge is evaluated and awarded in two categories: “Fastest Sorting” and “Overall Champion" with the latter merging both runs into a single score. Extra points are granted if the robot manages to stack KLTs in order of their id.
+In the second run, each team will show a technical challenge achivement. Extra points are granted if the robot manages to transport KLTs in order of their id.
+
+In the third round, each team will have a short presentation, pitching their inovative idea and algorithm to public.
+
 ##### 4.1 Teams and Roles
 ##### 4.2 Meetings and Language of Communication
 
@@ -313,40 +316,30 @@ The prep time of the next team begins once the arena state is declared as ready 
 
 During a run, the teamleader can restart the test execution once. Therefore he/she must say ’restart’, which stops the current run phase. The robot must be stopped using the emergency switches, which then allows the refs to reset the arena state. The remaining run time will be noted and used after the restart. Once the refs have finished resetting the arena, the performing team is brought back to their prep phase, which allows them to move the robot back to the start area and prepare it for the restarted run. A so called tactical call of a restart (e.g. to prevent a major collision) is allowed, because this rewards the teams knowledge about the robot. Note: When the first major collision occurs, the team can decide whether they stop the run or they restart the run
 
-#### 4. Competition
-
-The competition consists of two main runs per team, along with a technical challenge and a presentation round.
-
 ##### 4.11 Challenges
 ###### 4.11.1 🏁 KLT Transport
-In the first run, teams will navigate their Autonomous Mobile Robot (AMR) in an arena free of obstacles, except for the KLTs themselves. The robot must select any one of the six KLTs and transport it to a designated park zone. The task is to be completed within a maximum time of 6 minutes. Completing this task will grant the team the full score for this challenge, with time efficiency being a crucial factor.
+In the first run, teams will navigate their Autonomous Mobile Robot (AMR) in an arena free of obstacles, except for the KLTs themselves. The robot must select any one of the six KLTs and transport it to a designated park zone. The task is to be completed within a maximum time of 15 minutes. Completing this task will grant the team the full score for this challenge, with time efficiency being a crucial factor.
 
-###### 4.11.2 🏁 KLT Sorting
-The robot's objective is to sort all six KLTs to their corresponding park zones according to their ID in 16 minutes. While placing the KLTs in any park zone is required, teams will earn extra points for parking the KLTs in order of their ID. Transporting only 1 KLT with correct ID is also accetable but the team will receive minimum score. 
+While placing the KLTs in any park zone is required, teams will earn extra points for parking the KLTs in order of their ID. 
 
-###### 4.11.3 🏁 Technical Challenge
+###### 4.11.2 🏁 Technical Challenge
 Teams have the opportunity to present a technical showcase demonstrating a key feature or creative aspect of their system. Proposals can include handling static or dynamic obstacles, such as people moving within the arena, to exhibit the robot's capabilities in max 10 minutes. The creativity and problem solving has 40%, running a complete task is 30%, and robot design is in general has 30%. 
 
-###### 4.11.4 🧑‍💻 Presentation
+###### 4.11.3 🧑‍💻 Presentation
 Each team has 10 minutes to pitch their approach to solving the challenges. They will introduce their team and explain their strategies and solutions. The presentation may be recorded and published online to highlight the open nature of the competition and share findings and results. Scientific achivement / engineering solution 30%, overal presentation skills 30%, Teamwork has 40% of the points. 
 
-#### 5. Scoring and Ranking
+#### 5. Scoring and Ranking 
 The competition spans two days, with a total of 12 hours available for all runs and the award ceremony. There are six teams in total.
 
 ##### 5.1 Scoring
 ###### 5.1.1 Scores
 Teams will be scored on the speed and efficiency of completing the KLT Transport and KLT Sorting challenges. Extra points are awarded for stacking KLTs in order of their ID during the sorting challenge. 
 
-| Challenge                | Task Completion Score | Time-based Score (Formula)                  | Extra Points for Sorting |
-|--------------------------|-----------------------|---------------------------------------------|--------------------------|
-| 1 KLT Transport         | 35 points             | `5 * (6 - (int)(time in min))`                     |                       | 60 points              |
-| 6 KLTs Transport / Sorting           | if the team sort all 6 KLTs, 200 points extra            | `10 * (16 - (int)(time in min))`                   | 25 points per KLT  / 50 points per KLT with correct ID   | 
-| Technical Challenge      | 150 points            |                                          |                       | 
-| Presentation             | 150 points            |                                          |                       | 
-
-*Note: The time-based score formula adds points for each minute saved under the maximum allowed time. For example, completing the KLT Transport in 3.5 minutes would yield an additional `5 * (6 - (int)(3.5)) = 15` points.*
-
-*Note: The time-based score minimum is zero and it will not go for negative.*
+| Challenge                | Task Completion Score | Extra Points for Sorting |
+|--------------------------|---------------------------------------------|--------------------------|
+| 6 KLTs Transport / Sorting           | if the team sort all 6 KLTs, **200** points extra            | **25** points per KLT  or **50** points per KLT with correct ID * KLT Height (1,2,3) | 
+| Technical Challenge      | **150** points            |                                          |                       | 
+| Presentation             | **150** points            |                                          |                       | 
 
 ###### 5.1.2 🚫 Penalties
 Penalties are incurred for various infractions, including:
@@ -356,7 +349,6 @@ Penalties are incurred for various infractions, including:
 
 | Infraction               | Penalty Points |
 |--------------------------|----------------|
-| Collision with KLTs   | -10 points      |
 | Exiting the arena (and come back)       | -20 points      |
 | Second reset request     | -15 points      |
 | Each additional reset    | -25 points each |
