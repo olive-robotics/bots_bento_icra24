@@ -361,11 +361,6 @@ Teams are allowed one restart without penalty. Additional restarts will incur pe
 ##### 5.2 🏅 Ranking
 Teams will be ranked based on their overall total score accumulated over the two days of competition. The top three teams will be announced and awarded as the best in the competition.
 
-*Example: 
-- If a team completes the KLT Transport in 2.5 minutes, they would receive 35 points for task completion and an additional `5 * (6 - (int)(2.5)) = 5 * 4 = 20` points for time saved, totaling 55 points for this challenge.
-- In the 6 KLTs Transport / Sorting challenge, if they manage to sort all 6 KLTs with correct IDs in 7.5 minutes, they would earn `10 * (16 - (int)(7.5)) = 10 * 9 = 90` points for time saved, 50 points for each of the 6 sorted KLTs with correct IDs totaling 300 points, and an extra 200 points for sorting all 6, which sums up to a grand total of 580 points for this challenge. 
-- Combined with the Technical Challenge (150) and Presentation scores (150), they could earn up to an additional 300 points, assuming they perform exceptionally well in those areas.*
-
 "GOOD LUCK! ;)"
 
 #### 6. References
