@@ -3,8 +3,9 @@
 - Dr.-Ing. Edwin Babaians (TUM)
 - Dr.-Ing. Mojtaba Karimi (TUM)
 
-#### Release 
+#### 📖 Release 
 
+- Versionv 1.0: 05 March 2024
 - Versionv 0.7: 15 Feb 2024
 
 #### 1. Acknowledgments
@@ -14,6 +15,7 @@ of the Bots & Bento compition:
 
 - Dr.-Ing. Arne Rost 
 - Saori Ozawa
+- Shogo Sawaguchi
 - Benjamin Felbrich
 - Prof. Dr.-Ing. Eckehard Steinbach
 
@@ -21,7 +23,7 @@ of the Bots & Bento compition:
 
 ```
 @misc{bots_bento_2024,
-author = {Edwin Babaians, Mojtaba Karimi, Eckehard Steinbach},
+author = {Edwin Babaians, Mojtaba Karimi, Shogo Sawaguchi, Eckehard Steinbach},
 title = {Bots & Bento 2024 - Rulebook},
 year = 2024,
 howpublished = {\url{https://github.com/olive-robotics/olv_bots_bento_icra24/docs/rulbook.md}},
@@ -29,19 +31,19 @@ howpublished = {\url{https://github.com/olive-robotics/olv_bots_bento_icra24/doc
 ```
 
 #### 2. Introduction
-Within the Bots & Bento Challenge, competitors are tasked with designing and programming a robot that is able to locate, transport and sort standardized palettes containing the Japanese delicacy Bento. The rules are simple: given a pre-defined set of available hardware components, design your own robot and let it carry and sort palettes as high and as efficiently as possible.
+Within the Bots & Bento Challenge, competitors are tasked with designing and programming a robot that is able to locate, transport and sort standardized KLTs (Euro container, also called Eurobox, Euro crate or KLT box, is an industrial stacking container conforming to the VDA 4500 standard.) containing the Japanese delicacy Bento. The rules are simple: given a pre-defined set of available hardware components, design your own robot and let it carry and sort KLTs as high and as efficiently as possible.
 
 ##### History
 
-<img src="/images/klt.jpg" alt="7.png" width="200" />
+<img src="/images/klt.jpg" alt="7.png" width="350" />
 
 In a world where technology and culinary arts blend into the fabric of daily life, a cutting-edge competition emerges, set in the near future where dense warehouse management systems are the norm. This competition, known as "Bots & Bento", is not just a contest; it's a visionary project designed to revolutionize how food is managed in warehouses across the globe, using advanced robotics and artificial intelligence.
 
-The warehouses are vast, filled with stacks upon stacks of pallets, each bearing bento boxes of different types: vegetarian, seafood, beef, and chicken. Each category must be sorted accurately, a task that would be daunting for humans alone. But this is the age of robotics, where precision and efficiency are paramount.
+The warehouses are vast, filled with stacks upon stacks of KLTs, each bearing bento boxes of different types: vegetarian, seafood, beef, and chicken. Each category must be sorted accurately, a task that would be daunting for humans alone. But this is the age of robotics, where precision and efficiency are paramount.
 
 "The Great Bento Sort in Bots & Bento" challenges teams to develop sophisticated robots equipped with the latest in motion planning, computer vision, and AI development. These robots must navigate the labyrinthine aisles of the warehouse, identifying and sorting bento boxes with unerring accuracy. The competition's objective is two-fold: to advance the technology of automated systems in large-scale food management and to foster innovation in AI that can discern between food types, understanding textures, colors, and packaging with the same discernment as a human expert.
 
-In this scenario, the imaginative use of bento-filled pallets is a metaphor for the diverse range of products that such robots will handle in the real world. It's a testbed for innovation, a showcase of human ingenuity, and a tantalizing glimpse into a future where technology and tradition combine to create a world that is more organized, more efficient, and more delicious.
+In this scenario, the imaginative use of bento-filled KLTs is a metaphor for the diverse range of products that such robots will handle in the real world. It's a testbed for innovation, a showcase of human ingenuity, and a tantalizing glimpse into a future where technology and tradition combine to create a world that is more organized, more efficient, and more delicious.
 
 ##### Example Demo
 
@@ -65,20 +67,19 @@ A panel of judges from Olive Robotics, TUM Venture Lab Robotics / AI, and UTokyo
 
 General:
 - Robots must initiate from the specified starting area.
-- Robots are not permitted to exit the arena at any point.
+- Robots are permitted to partially exit the arena, but are not allowed to leave the arena entirely at any point.
 
 Hardware Compliance:
 - Only components listed in the “Hardware” section are permitted for robot construction.
-- Alteration or modification of provided hardware is prohibited. Time Constraints:
-- Each run has a time limit of maximum 10 minutes.
+- Alteration or modification of provided hardware is prohibited. 
+
+Time Constraints:
+- Each run has a time limit of maximum 15 minutes.
 - Any uncompleted tasks post timeout will not be scored.
 
 Submission and Disassembly:
 - Teams must bring their assembled robots to the competition venue.
 - Post-competition, robots must be disassembled and provided hardware returned in the initial condition to the respective co-organizers (TUM VL RAI and UTokyo IPC)
-latest in two weeks after the competition. Scoring Criteria:
-- Points awarded based on the number (height) of the collected pallet tower, speed of stacking, order of pallet IDs, and adherence to design constraints.
-- Specific point values for each criterion will be disclosed prior to competition.
 
 Safety Compliance:
 - Robots must operate safely to ensure the welfare of all present.
@@ -86,7 +87,8 @@ Safety Compliance:
 
 Judging and Appeals:
 - A panel of judges will evaluate the performance based on predefined criteria.
-- Teams have the right to appeal and must do so within a specified timeframe post scoring announcement. Technical Support and Troubleshooting:
+
+Technical Support and Troubleshooting:
 - Limited technical support may be available during the competition.
 - Teams are expected to handle troubleshooting autonomously.
 
@@ -94,11 +96,13 @@ Judging and Appeals:
 ###### 3.1.1 Design and Contraints
 
 Maximum allowed robot size: 65x65x90 cm
-Palette size: 40x30x12cm
+KLT size: 40x30x12cm
 
-Robot hardware is temporarily provided by the challenge organizers (Olive Robotics supported by TUM VL RAI and UTokyo IPC) for the selected teams in the form of comprehensive robotic hardware kits of modular sensors, actuators and respective standardized connectors and power units. These modular robot components (servo motors, cameras, IMUs) are designed as interoperable and reconfigurable robot building blocks and natively speak ROS2 out-of-the-box. They can be treated as standalone Linux-based SMBs. Challenge participants are provided with the required documentation (datasheets, CAD, URDF, API docs, manuals) of the hardware along with a default robot design. However, participants are encouraged and rewarded for coming up with their own improved robot designs using the hardware. The hardware kits will be provided two months before the competition so that teams can start designing and programming their competition bots.
+Robot hardware is temporarily provided by the challenge organizers (Olive Robotics supported by TUM VL RAI and UTokyo IPC) for the selected teams in the form of comprehensive robotic hardware kits of modular sensors, actuators and respective standardized connectors and power units. These modular robot components (servo motors, cameras, IMUs) are designed as interoperable and reconfigurable robot building blocks and natively speak ROS2 out-of-the-box. They can be treated as standalone Linux-based SMBs. Challenge participants are provided with the required documentation (datasheets, CAD, URDF, API docs, manuals) of the hardware along with a default robot design. However, participants are encouraged and rewarded for coming up with their own improved robot designs using the hardware. 
 
-Aside from the provided hardware, teams are allowed to 3D print passive parts to amend their robot designs as well as using off-the-shelf transmission gears and belts. Furthermore teams are free to either use any stationary computer to control the hardware wirelessly and / or use additional mobile compute units like Intel NUCs, Laptops, compute sticks and so on directly on the robot.
+Aside from the provided hardware, teams are allowed to 3D print passive parts to amend their robot designs as well as using off-the-shelf transmission gears and belts.
+
+Furthermore teams are free to either use any stationary computer to control the hardware wirelessly and / or use additional mobile compute units like Laptops, compute sticks and so on directly on the robot.
 
 ###### 3.1.2 Given Robotic Components
 
@@ -136,7 +140,7 @@ Each team should have a working laptop with [Ubuntu 22.04 Desktop](https://ubunt
 
 ![2.png](/images/2.png "2.png")
 
-You will be provided with the Olive [ANT kit](https://docs.olive-robotics.com/kits/ant/ant.html) as the base for your robot. To enhance its capabilities, you are tasked with creatively installing an additional 2 cameras and 2 actuators. This modification aims to transform the passive base into a robot with high-level understanding and picking capabilities, enabling it to effectively transport and sort pallets within the competition arena. Your innovative integration of these components will be crucial in equipping the robot with the necessary tools to navigate, identify, and manipulate objects according to the competition's requirements.
+You will be provided with the Olive [ANT kit](https://docs.olive-robotics.com/kits/ant/ant.html) as the base for your robot. To enhance its capabilities, you are tasked with creatively installing an additional 2 cameras and 2 actuators. This modification aims to transform the passive base into a robot with high-level understanding and picking capabilities, enabling it to effectively transport and sort KLTs within the competition arena. Your innovative integration of these components will be crucial in equipping the robot with the necessary tools to navigate, identify, and manipulate objects according to the competition's requirements.
 
 ![2.png](/images/ant.png "2.png")
 
@@ -168,7 +172,7 @@ Virtual Walls are made of yellow/black tape and may never be crossed during a ru
 
 ###### 3.2.3 Obstacles
 
-The arena will initially be free of obstacles, providing a clear path for the robots to navigate. However, for an added technical challenge, paper packaging boxes can be introduced into the arena. This inclusion is intended to increase the difficulty of the task, requiring robots to navigate around or interact with these obstacles as part of their pallet transport and sorting objectives.
+The arena will initially be free of obstacles, providing a clear path for the robots to navigate. However, for an added technical challenge, paper packaging boxes can be introduced into the arena. This inclusion is intended to increase the difficulty of the task, requiring robots to navigate around or interact with these obstacles as part of their KLT transport and sorting objectives.
 
 ###### 3.2.4 Tapes
 
@@ -182,11 +186,11 @@ The yellow/black Tape (Tesa signal 5cm width) is considered as a Virtual Obstacl
 
 ###### 3.2.5 Zones
 
-We will have start/end zone in the middle and on the edge of arena. It will be several placement zones for pallets which robot has to bring them there. The receive the extra score points the pallets has to match the location id. This zones will be marked with the red/white tape.
+We will have start/end zone in the middle and on the edge of arena. It will be several placement zones for KLTs which robot has to bring them there. The receive the extra score points the KLTs has to match the location id. This zones will be marked with the red/white tape.
 
 ###### 3.2.6 Arena Layout
 
-The competition arena is a 5x6 meter clear space with barriers on its sides. It has designated starting and stacking areas. Standardized pallets are randomly scattered within the arena, each measuring 40x30 cm and labeled with localisation tags on top and sides indicatinguniqueids. 
+The competition arena is a 5x6 meter clear space with barriers on its sides. It has designated starting and stacking areas. Standardized KLTs are randomly scattered within the arena, each measuring 40x30 cm and labeled with localisation tags on top and sides indicatinguniqueids. 
 
 Atfirsttheareaisclearandwithoutfurtherobstacles.Inthesecond challenge run, however, small obstacles with a size of up to 30x30x30cm are introduced into the area and must be avoided.
 
@@ -198,11 +202,11 @@ Atfirsttheareaisclearandwithoutfurtherobstacles.Inthesecond challenge run, howev
 
 The robot's operation commences and concludes in the same square zone, strategically positioned on the arena's edge. This designated area serves as both the launching point for the robot's mission and the final destination where it returns to mark the completion of its tasks, emphasizing the significance of this singular location for both the beginning and end of the operation.
 
-###### 3.2.8 Pallets
+###### 3.2.8 KLTs
 
-During the competition, there will be a maximum of six pallets, each supported by three wheels for ease of movement. The robot's task involves either pushing or pulling these pallets to sort them into predefined locations. The starting position of each pallet within the arena is determined randomly, adding an element of unpredictability to the challenge. To facilitate identification and sorting, each pallet is equipped with an April Tag on both its front and back sides. These tags contain unique IDs, enabling the robot to accurately recognize and handle the pallets according to the competition's requirements.
+During the competition, there will be a maximum of six KLTs, each supported by three wheels for ease of movement. The robot's task involves either pushing or pulling these KLTs to sort them into predefined locations. The starting position of each KLT within the arena is determined randomly, adding an element of unpredictability to the challenge. To facilitate identification and sorting, each KLT is equipped with an April Tag on both its front and back sides. These tags contain unique IDs, enabling the robot to accurately recognize and handle the KLTs according to the competition's requirements.
 
-Pallets might have different hights as shown below:
+KLTs might have different hights as shown below:
 
 
  |a     | b           |  c |
@@ -216,7 +220,7 @@ Hooking system and the installed April tag example.
 
 ###### 3.2.9 April Tag 
 
-April tags might be used in the competition. This should allow teams to focus on other areas than object recognition by simplifying the detection of pallets. 
+April tags might be used in the competition. This should allow teams to focus on other areas than object recognition by simplifying the detection of KLTs. 
 
 The April Tags measure 40mm × 40mm and have an encoding taken from the 36h11 April Tag family, including a 1bit black and 1bit white border.
 
@@ -227,9 +231,9 @@ April Tags can be easy generated. The usage of any ROS package to identify the A
 <img src="/images/16.png" alt="7.png" width="500" />
 
 #### 4. Competition
-The competition is split into two runs for each team. In the first run, the arena is free of obstacles (other than the palettes themselves). The task is for the robot to collect a palette and carry to a predefined location. 
+The competition is split into two runs for each team. In the first run, the arena is free of obstacles (other than the KLTs themselves). The task is for the robot to collect a KLT and carry to a predefined location. 
 
-In the second run, small obstacles are introduced into the arena and the task is to sort 4 palettes to 4 predefined locations acroding to their id. The challenge is evaluated and awarded in two categories: “Fastest Sorting” and “Overall Champion" with the latter merging both runs into a single score. Extra points are granted if the robot manages to stack pallets in order of their id.
+In the second run, small obstacles are introduced into the arena and the task is to sort 4 KLTs to 4 predefined locations acroding to their id. The challenge is evaluated and awarded in two categories: “Fastest Sorting” and “Overall Champion" with the latter merging both runs into a single score. Extra points are granted if the robot manages to stack KLTs in order of their id.
 ##### 4.1 Teams and Roles
 ##### 4.2 Meetings and Language of Communication
 
@@ -303,11 +307,11 @@ During a run, the teamleader can restart the test execution once. Therefore he/s
 The competition consists of two main runs per team, along with a technical challenge and a presentation round.
 
 ##### 4.11 Challenges
-###### 4.11.1 🏁 Pallet Transport
-In the first run, teams will navigate their Autonomous Mobile Robot (AMR) in an arena free of obstacles, except for the pallets themselves. The robot must select any one of the six pallets and transport it to a designated park zone. The task is to be completed within a maximum time of 6 minutes. Completing this task will grant the team the full score for this challenge, with time efficiency being a crucial factor.
+###### 4.11.1 🏁 KLT Transport
+In the first run, teams will navigate their Autonomous Mobile Robot (AMR) in an arena free of obstacles, except for the KLTs themselves. The robot must select any one of the six KLTs and transport it to a designated park zone. The task is to be completed within a maximum time of 6 minutes. Completing this task will grant the team the full score for this challenge, with time efficiency being a crucial factor.
 
-###### 4.11.2 🏁 Pallet Sorting
-The robot's objective is to sort all six pallets to their corresponding park zones according to their ID in 16 minutes. While placing the pallets in any park zone is required, teams will earn extra points for parking the pallets in order of their ID. Transporting only 1 pallet with correct ID is also accetable but the team will receive minimum score. 
+###### 4.11.2 🏁 KLT Sorting
+The robot's objective is to sort all six KLTs to their corresponding park zones according to their ID in 16 minutes. While placing the KLTs in any park zone is required, teams will earn extra points for parking the KLTs in order of their ID. Transporting only 1 KLT with correct ID is also accetable but the team will receive minimum score. 
 
 ###### 4.11.3 🏁 Technical Challenge
 Teams have the opportunity to present a technical showcase demonstrating a key feature or creative aspect of their system. Proposals can include handling static or dynamic obstacles, such as people moving within the arena, to exhibit the robot's capabilities in max 10 minutes. The creativity and problem solving has 40%, running a complete task is 30%, and robot design is in general has 30%. 
@@ -320,28 +324,28 @@ The competition spans two days, with a total of 12 hours available for all runs 
 
 ##### 5.1 Scoring
 ###### 5.1.1 Scores
-Teams will be scored on the speed and efficiency of completing the Pallet Transport and Pallet Sorting challenges. Extra points are awarded for stacking pallets in order of their ID during the sorting challenge. 
+Teams will be scored on the speed and efficiency of completing the KLT Transport and KLT Sorting challenges. Extra points are awarded for stacking KLTs in order of their ID during the sorting challenge. 
 
 | Challenge                | Task Completion Score | Time-based Score (Formula)                  | Extra Points for Sorting |
 |--------------------------|-----------------------|---------------------------------------------|--------------------------|
-| 1 Pallet Transport         | 35 points             | `5 * (6 - (int)(time in min))`                     |                       | 60 points              |
-| 6 Pallets Transport / Sorting           | if the team sort all 6 pallets, 200 points extra            | `10 * (16 - (int)(time in min))`                   | 25 points per pallet  / 50 points per pallet with correct ID   | 
+| 1 KLT Transport         | 35 points             | `5 * (6 - (int)(time in min))`                     |                       | 60 points              |
+| 6 KLTs Transport / Sorting           | if the team sort all 6 KLTs, 200 points extra            | `10 * (16 - (int)(time in min))`                   | 25 points per KLT  / 50 points per KLT with correct ID   | 
 | Technical Challenge      | 150 points            |                                          |                       | 
 | Presentation             | 150 points            |                                          |                       | 
 
-*Note: The time-based score formula adds points for each minute saved under the maximum allowed time. For example, completing the Pallet Transport in 3.5 minutes would yield an additional `5 * (6 - (int)(3.5)) = 15` points.*
+*Note: The time-based score formula adds points for each minute saved under the maximum allowed time. For example, completing the KLT Transport in 3.5 minutes would yield an additional `5 * (6 - (int)(3.5)) = 15` points.*
 
 *Note: The time-based score minimum is zero and it will not go for negative.*
 
 ###### 5.1.2 🚫 Penalties
 Penalties are incurred for various infractions, including:
-- Any collision with pallets.
+- Any collision with KLTs.
 - The robot exiting the competition arena, marked by yellow and black tape.
 - Multiple requests for resets. One reset is permitted without penalty, but subsequent resets will result in score deductions.
 
 | Infraction               | Penalty Points |
 |--------------------------|----------------|
-| Collision with pallets   | -10 points      |
+| Collision with KLTs   | -10 points      |
 | Exiting the arena (and come back)       | -20 points      |
 | Second reset request     | -15 points      |
 | Each additional reset    | -25 points each |
@@ -355,8 +359,8 @@ Teams are allowed one restart without penalty. Additional restarts will incur pe
 Teams will be ranked based on their overall total score accumulated over the two days of competition. The top three teams will be announced and awarded as the best in the competition.
 
 *Example: 
-- If a team completes the Pallet Transport in 2.5 minutes, they would receive 35 points for task completion and an additional `5 * (6 - (int)(2.5)) = 5 * 4 = 20` points for time saved, totaling 55 points for this challenge.
-- In the 6 Pallets Transport / Sorting challenge, if they manage to sort all 6 pallets with correct IDs in 7.5 minutes, they would earn `10 * (16 - (int)(7.5)) = 10 * 9 = 90` points for time saved, 50 points for each of the 6 sorted pallets with correct IDs totaling 300 points, and an extra 200 points for sorting all 6, which sums up to a grand total of 580 points for this challenge. 
+- If a team completes the KLT Transport in 2.5 minutes, they would receive 35 points for task completion and an additional `5 * (6 - (int)(2.5)) = 5 * 4 = 20` points for time saved, totaling 55 points for this challenge.
+- In the 6 KLTs Transport / Sorting challenge, if they manage to sort all 6 KLTs with correct IDs in 7.5 minutes, they would earn `10 * (16 - (int)(7.5)) = 10 * 9 = 90` points for time saved, 50 points for each of the 6 sorted KLTs with correct IDs totaling 300 points, and an extra 200 points for sorting all 6, which sums up to a grand total of 580 points for this challenge. 
 - Combined with the Technical Challenge (150) and Presentation scores (150), they could earn up to an additional 300 points, assuming they perform exceptionally well in those areas.*
 
 "GOOD LUCK! ;)"
