@@ -41,15 +41,14 @@ TUM Venture Lab Robotics / AI and UTokyo IPC will both share the burden of suppl
 |-------------|-----------------------------------------------------|
 | Jan.4th | - Public call for challenge participation<br>- Challenge info website online<br>- Application process starts |
 | Mar.17th  | - Application deadline for competitors (Extended!).             |
-| Mar.20th   | - Notification to participating teams<br>- |
-| Mar.22th  | - Shipment of sample kits to participants          |
-| Apr.15th  | - Shipment of full robotics challenge kits to Japan and local storage |
+| Mar.25th  | - Extended deadline for registeration |
+| Mar.29th   | - Notification to participating teams |
 | May.12th   | - Venue setup by challenge organizers              |
 | May.13th   | - Welcoming challenge participants in Yokohama<br>- Day one of robot assembly |
-| May.14th   | - Day two of robot assembly                        |
-| May.15th   | - Challenge Session 1             |
+| May.14th   | - Day two of robot assembly  |
+| May.15th   | - Challenge Session 1    |
 | May.16th   | - Challenge Session 2 <br>- Award Ceremony |
-| May.17th   | - Disassembly of robots by challenge organizers and preparation of return of kits |
+
 
 ## Safety Considerations
 The safety considerations for this challenge are relatively straightforward: as the arena is walled with robust barriers on each side and the machines will move at relatively low speed (~1m/s at max), it is very unlikely for a robot to escape the arena. Within the arena safety hazards might be represented by the robot or stacks of pallets falling over. Thus to avoid harm to visitors and the contestants, no one is allowed to enter the arena while a competition run is under way.

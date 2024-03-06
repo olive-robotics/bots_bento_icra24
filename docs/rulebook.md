@@ -275,7 +275,7 @@ Scheduled practice time slots will be made available for each team, allowing the
 |            | prepare task execution             |  record test-specific data                |
 |            | clear robot memory                 |                                            |
 | Run Phase  | nothing / watch the run            |  control the robot                        |
-|            | (unplug LAN cable)                 | interfere with the robot                 |
+|            |                  | interfere with the robot                 |
 |            |                                      | enter the arena                          |
 | End Phase  | stop robot autonomy                |                                      |
 |            | move robot out           |            |
@@ -314,7 +314,7 @@ The prep time of the next team begins once the arena state is declared as ready 
 
 ##### 4.10 Restarting a Run
 
-During a run, the teamleader can restart the test execution once. Therefore he/she must say ’restart’, which stops the current run phase. The robot must be stopped using the emergency switches, which then allows the refs to reset the arena state. The remaining run time will be noted and used after the restart. Once the refs have finished resetting the arena, the performing team is brought back to their prep phase, which allows them to move the robot back to the start area and prepare it for the restarted run. A so called tactical call of a restart (e.g. to prevent a major collision) is allowed, because this rewards the teams knowledge about the robot. Note: When the first major collision occurs, the team can decide whether they stop the run or they restart the run
+During a run, the teamleader can restart the test execution once. Therefore he/she must say ’restart’, which stops the current run phase. The robot must be stopped using the emergency switches, which then allows the refs to reset the arena state. The remaining run time will be noted and used after the restart. Once the refs have finished resetting the arena, the performing team is brought back to their prep phase, which allows them to move the robot back to the start area and prepare it for the restarted run. A so called tactical call of a restart (e.g. to prevent a major collision) is allowed, because this rewards the teams knowledge about the robot.
 
 ##### 4.11 Challenges
 ###### 4.11.1 🏁 KLT Transport
@@ -349,8 +349,8 @@ Penalties are incurred for various infractions, including:
 
 | Infraction               | Penalty Points |
 |--------------------------|----------------|
-| Exiting the arena (and come back)       | -20 points      |
-| Second reset request     | -15 points      |
+| Exiting the arena (and come back)       | -25 points      |
+| Up to three reset     | 0 points      |
 | Each additional reset    | -25 points each |
 
 *Note: The first reset request does not incur a penalty.*
