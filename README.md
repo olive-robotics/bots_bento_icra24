@@ -9,7 +9,7 @@ Within the Bots & Bento Challenge, competitors are tasked with designing and pro
 
 - 🗓️ Duration: 4 days
 - 📍 Place: Yokohama, Japan
-- 🗒️ Registration Deadline: March 17, 2024 11:59 pm
+- 🗒️ Registration Deadline: March 25, 2024 11:59 pm
 - 🗒️ Start: May 13, 2024 12:00 am GMT+2
 - 🔗 Apply: [Here](https://docs.google.com/forms/d/e/1FAIpQLSfIDB8EHTKZsTSxabpzjz0qU7LuDq8VqgYfEWqWLxOi16SeZA/viewform) 
 - 📧 General Contact: arne.rost@tum-venture-labs.de
