@@ -147,7 +147,7 @@ Each team should have a working laptop with [Ubuntu 22.04 Desktop](https://ubunt
 
 You will be provided with the Olive [ANT kit](https://docs.olive-robotics.com/kits/ant/ant.html) as the base for your robot. To enhance its capabilities, you are tasked with creatively installing an additional 2 cameras and 2 actuators. This modification aims to transform the passive base into a robot with high-level understanding and picking capabilities, enabling it to effectively transport and sort KLTs within the competition arena. Your innovative integration of these components will be crucial in equipping the robot with the necessary tools to navigate, identify, and manipulate objects according to the competition's requirements.
 
-![2.png](/images/ant.png "2.png")
+<img src="/images/ant.png" alt="ant.png" width="400" />
 
 ###### 3.1.6.1
 
