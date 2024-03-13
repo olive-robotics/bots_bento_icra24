@@ -127,6 +127,10 @@ To be able to simulate the components in any simulation software the Universal R
 - https://github.com/olive-robotics/olv_brackets_descriptions
 - https://github.com/olive-robotics/olv_kit_descriptions
 
+Example URDF of the robot base:
+
+<img src="/images/ant.gif" alt="ant.gif" width="400" />
+
 ###### 3.1.4 Documentation
 
 For more technical information regarding each olive components you can visit:
@@ -240,6 +244,12 @@ April Tags can be easy generated. The usage of any ROS package to identify the A
 
 ⚠️ Pritable A4 size (36h11):
 https://github.com/rgov/apriltag-pdfs
+
+Open source implementation for Olive Camera is available in the camera playground repo:
+
+https://github.com/olive-robotics/olv_camera_tpu_playground_py
+
+<img src="/images/tag.gif" alt="7tag.gif" width="400" />
 
 #### 4. Competition
 The competition is split into three runs for each team. In the first run, the arena is free of obstacles (other than the KLTs themselves). The task is for the robot to collect a KLT and carry to a predefined location. 
