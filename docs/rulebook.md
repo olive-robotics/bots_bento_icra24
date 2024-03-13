@@ -129,7 +129,7 @@ To be able to simulate the components in any simulation software the Universal R
 
 Example URDF of the robot base:
 
-<img src="/images/ant.gif" alt="ant.gif" width="400" />
+<img src="/images/ANT.gif" alt="ANT.gif" width="400" />
 
 ###### 3.1.4 Documentation
 
