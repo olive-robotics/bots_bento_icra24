@@ -353,7 +353,6 @@ Teams will be scored on the speed and efficiency of completing the KLT Transport
 
 ###### 5.1.2 🚫 Penalties
 Penalties are incurred for various infractions, including:
-- Any collision with KLTs.
 - The robot exiting the competition arena, marked by yellow and black tape.
 - Multiple requests for resets. One reset is permitted without penalty, but subsequent resets will result in score deductions.
 
