@@ -56,10 +56,13 @@ class MainNode(Node):
         # Convert vx, vy, wz to wheel velocities based on your kinematic model
         # Here you would put your formula to convert to individual wheel speeds
         # Placeholder values:
-        self.velocity_front_left = -1 * vx + vy - wz;
-        self.velocity_front_right = vx + vy - wz;
-        self.velocity_rear_left = -1 * vx - vy - wz;
-        self.velocity_rear_right = vx - vy - wz;
+        low_pass_value = 0.94
+
+        self.velocity_front_left = (self.velocity_front_left * low_pass_value) + ((-1 * vx + vy - wz) * (1-low_pass_value));
+        self.velocity_front_right = (self.velocity_front_right * low_pass_value) + ((vx + vy - wz) * (1-low_pass_value));
+        self.velocity_rear_left = (self.velocity_rear_left * low_pass_value) +  ((-1 * vx - vy - wz) * (1-low_pass_value));
+        self.velocity_rear_right = (self.velocity_rear_right * low_pass_value ) +  ((vx - vy - wz) * (1-low_pass_value));
+        
 
     def __del__(self):
         self.thread_exited = True

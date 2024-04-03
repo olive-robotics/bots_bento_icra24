@@ -15,7 +15,7 @@ class JoyToCmdVelAndServo(Node):
         self.cmd_vel_publisher = self.create_publisher(Twist, 'cmd_vel', 10)
         self.servo_publisher = self.create_publisher(Float32, '/olive/servo/hook/goal/position', 10)
         
-        self.max_velocity = 2.0  # Maximum velocity
+        self.max_velocity = 5.0  # Maximum velocity
         self.servo_position = 0.0  # Initial servo position
         self.servo_step = 0.1  # Increment/decrement step for servo position
 
