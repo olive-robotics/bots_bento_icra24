@@ -11,13 +11,15 @@ class CompressedImageViewer(Node):
         super().__init__('compressed_image_viewer')
         self.subscription = self.create_subscription(
             CompressedImage,
-            '/olive/camera/id01/image/compressed',
+            '/tags/image/compressed',
             self.image_callback,
             qos_profile=qos_profile_sensor_data)
         self.subscription  # prevent unused variable warning
         self.start_time = time.time()
         self.frame_count = 0
         self.fps = 0
+
+        # '/olive/camera/id01/image/compressed',
 
         # Set up the window for fullscreen or maximizable
         cv2.namedWindow("Compressed Image Window", cv2.WINDOW_NORMAL)
