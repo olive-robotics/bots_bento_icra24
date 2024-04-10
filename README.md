@@ -4,7 +4,7 @@ Germany and Japan have excellent robotics researchers and industrial robotics co
 
 ![1.png](/images/cover.gif "1.png")
 
-## ⚠️ Important Announcement
+## ⚠️ Important Announcement (1)
 
 1. **ICRA Registration Deadline 11th April**
 - Team members should complete their registration procedure by **11 April 2024**, if they need to receive the Visa Invitation Letter.
@@ -15,6 +15,16 @@ Germany and Japan have excellent robotics researchers and industrial robotics co
 
 3. **Registration at ICRA 2024**
 - All the registration-related questions must be communicated to the ICRA team, via icra2024-registration@congre.co.jp
+
+## ⚠️ Important Announcement (2)
+
+
+The first online meeting for the Bots and Bento competition will be on **April 12 at 4 PM Germany Time**. Please look for the meeting link in your emails. Each team should send only one member to join this meeting. We will say hello, answer questions, talk about technical details, and discuss how the competition will be organized.
+
+Germany (CET): 4:00 PM
+Japan (JST): Midnight (next day)
+New York, USA (EST): 10:00 AM
+India (IST): 8:30 PM
 
 ## Challenge Description
 Within the Bots & Bento Challenge, competitors are tasked with designing and programming a robot that is able to locate, transport and sort standardized palettes containing the Japanese delicacy Bento. The rules are simple: given a pre-defined set of available hardware components, design your own robot and let it carry and sort palettes as high and as efficiently as possible.
@@ -55,6 +65,8 @@ TUM Venture Lab Robotics / AI and UTokyo IPC will both share the burden of suppl
 | Mar.17th  | - Application deadline for competitors (Extended!).             |
 | Mar.25th  | - Extended deadline for registeration |
 | Mar.29th   | - Notification to participating teams |
+| April.11th   | - Deadline for ICRA Registeration |
+| April.12th   | - First sync Online Meeting |
 | May.12th   | - Venue setup by challenge organizers              |
 | May.13th   | - Welcoming challenge participants in Yokohama<br>- Day one of robot assembly |
 | May.14th   | - Day two of robot assembly  |
