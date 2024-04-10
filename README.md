@@ -4,6 +4,19 @@ Germany and Japan have excellent robotics researchers and industrial robotics co
 
 ![1.png](/images/cover.gif "1.png")
 
+## ⚠️ Important Anouncment
+
+1. **ICRA Registration Deadline 11th April**
+Team members should complete their registration procedure by **11 April 2024**, if they need to receive the Visa Invitation Letter.
+
+2. **Visa Invitation Letter**
+Team members must register for a full registration if they want to get the Visa Invitation letter. 
+Registration for the "Exhibition and Competition" only is not enough to get the Visa Invitation Letter. 
+**Important:** This is only for those team members who need the Visa, if you do not need a visa invitation letter, you can only register for the "Exhibition and Competition".
+
+3. **Registration at ICRA 2024**
+All the registration-related questions must be communicated to the ICRA team, via icra2024-registration@congre.co.jp
+
 ## Challenge Description
 Within the Bots & Bento Challenge, competitors are tasked with designing and programming a robot that is able to locate, transport and sort standardized palettes containing the Japanese delicacy Bento. The rules are simple: given a pre-defined set of available hardware components, design your own robot and let it carry and sort palettes as high and as efficiently as possible.
 
