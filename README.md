@@ -4,6 +4,19 @@ Germany and Japan have excellent robotics researchers and industrial robotics co
 
 ![1.png](/images/cover.gif "1.png")
 
+## Qualified Teams
+
+| Team Name      | Country       | Affiliation                                           |
+|----------------|---------------|-------------------------------------------------------|
+| 100TemperedS   | Japan         | The University of Tokyo                               |
+| ByteStackers   | Germany       | RWTH Aachen University                                |
+| StackMasters   | United States | University of Pennsylvania                            |
+| UoZRobotics    | Zimbabwe      | University of Zimbabwe                                |
+| OnMyOwn        | Singapore     | National University of Singapore                     |
+| Evolonic       | Germany       | Friedrich-Alexander-Universität Erlangen, Fraunhofer IISB |
+| INNOVATORS | India         | PSG College of Technology, VIT Chennai               |
+
+
 ## ⚠️ Important Announcement (1)
 
 1. **ICRA Registration Deadline 11th April**
