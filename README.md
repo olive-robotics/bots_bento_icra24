@@ -18,13 +18,12 @@ Germany and Japan have excellent robotics researchers and industrial robotics co
 
 ## ⚠️ Important Announcement (2)
 
-
 The first online meeting for the Bots and Bento competition will be on **April 12 at 4 PM Germany Time**. Please look for the meeting link in your emails. Each team should send only one member to join this meeting. We will say hello, answer questions, talk about technical details, and discuss how the competition will be organized.
 
-Germany (CET): 4:00 PM
-Japan (JST): Midnight (next day)
-New York, USA (EST): 10:00 AM
-India (IST): 8:30 PM
+- Germany (CET): 4:00 PM
+- Japan (JST): Midnight (next day)
+- New York, USA (EST): 10:00 AM
+- India (IST): 8:30 PM
 
 ## Challenge Description
 Within the Bots & Bento Challenge, competitors are tasked with designing and programming a robot that is able to locate, transport and sort standardized palettes containing the Japanese delicacy Bento. The rules are simple: given a pre-defined set of available hardware components, design your own robot and let it carry and sort palettes as high and as efficiently as possible.
