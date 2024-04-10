@@ -4,7 +4,7 @@ Germany and Japan have excellent robotics researchers and industrial robotics co
 
 ![1.png](/images/cover.gif "1.png")
 
-## ⚠️ Important Anouncment
+## ⚠️ Important Announcement
 
 1. **ICRA Registration Deadline 11th April**
 Team members should complete their registration procedure by **11 April 2024**, if they need to receive the Visa Invitation Letter.
