@@ -78,7 +78,6 @@ TUM Venture Lab Robotics / AI and UTokyo IPC will both share the burden of suppl
 | Mar.25th  | - Extended deadline for registeration |
 | Mar.29th   | - Notification to participating teams |
 | April.11th   | - Deadline for ICRA Registeration |
-| April.12th   | - First sync Online Meeting |
 | May.12th   | - Venue setup by challenge organizers              |
 | May.13th   | - Welcoming challenge participants in Yokohama<br>- Day one of robot assembly |
 | May.14th   | - Day two of robot assembly  |
