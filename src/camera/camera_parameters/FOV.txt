@@ -1,0 +1,4 @@
+The Field of View (FOV) for the specified monocular camera is approximately:
+
+Horizontal FOV: 48.66 degrees
+Vertical FOV: 37.48 degrees
