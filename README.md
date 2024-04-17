@@ -60,10 +60,6 @@ This first inaugural competition, co-organized by Olive Robotics, UTokyoIPC and 
 
 The Bots & Bento Challenge at IEEE ICRA 2024 will be held from May 13th to May 17th in Yokohama, Japan. Acting as the local partner in Japan, UTokyoIPC will be responsible for handling most of the on-site organizational tasks, whereas the Germany-based team takes care of supporting participants and shipping hardware and providing the simulation environment and later on be onsite to manage the competition itself. To ensure first-class support to all challenge participants, the number of teams allowed to participate is limited to six teams with up to six team members each.
 
-Challenge preparation and training in virtual environments
-In order to streamline processes and reduce the burden to participants of shipping large, bulky robotic setups to Japan with potential complications in customs, freight and clearance and thus delayed hardware deliveries, the challenge preparation phase is streamlined to be quite lean. The participants will receive a reduced-size “sample kit” approx. two months in advance with the most important components to get their hands on the actual hardware. The entirety of competition hardware needed is sent to Japan by the challenge organizers instead. This guarantees smooth transport of hardware and improves logistics handling.
-Additionally, we introduce a virtual simulation environment with a detailed representation of the challenge arena and the robot hardware (eg. given in Gazebo, URDF) already sent approx. three months in advance. In this virtual representation participants are able to design and train their robots to handle and stack the Bento boxes. At ICRA, participants will then get two days of time upfront to assemble their own robots based on their virtual designs.
-
 ## Awards & Budget
 TUM Venture Lab Robotics / AI and UTokyo IPC will both share the burden of supplying max 12 teams with robotics kits, which will be returned by the teams to the hosts after the competition. 
 
