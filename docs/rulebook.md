@@ -5,6 +5,7 @@
 
 #### 📖 Release 
 
+- Versionv 1.1: 20 April 2024
 - Versionv 1.0: 05 March 2024
 - Versionv 0.7: 15 Feb 2024
 
@@ -117,7 +118,7 @@ Furthermore teams are free to either use any stationary computer to control the 
 | 1x T-Slot Kit 10x10mm w/ connectors | ![11.png](/images/11.png "11.png") |
 | 1x Set of USB-C Cables various lengths and 1x USB-C Hub | ![12.png](/images/12.png "12.png") |
 | 1x USB-C 65W PD Power Bank | <img src="/images/13.png" alt="13.png" width="150" /> |
-| Standard EMS Button | <img src="/images/ems.png" alt="ems.png" width="100" /> |
+
 
 ###### 3.1.3 Simulation Content
 
@@ -147,9 +148,13 @@ Each team should have a working laptop with [Ubuntu 22.04 Desktop](https://ubunt
 
 You will be provided with the Olive [ANT kit](https://docs.olive-robotics.com/kits/ant/ant.html) as the base for your robot. To enhance its capabilities, you are tasked with creatively installing an additional 2 cameras and 2 actuators. This modification aims to transform the passive base into a robot with high-level understanding and picking capabilities, enabling it to effectively transport and sort KLTs within the competition arena. Your innovative integration of these components will be crucial in equipping the robot with the necessary tools to navigate, identify, and manipulate objects according to the competition's requirements.
 
-<img src="/images/ant.png" alt="ant.png" width="400" />
+<img src="/images/antm.gif" alt="ant.png" width="400" />
 
 ###### 3.1.6.1
+
+- 📘 [Please follow this tutorial to build the base](tutorial.md)
+
+###### 3.1.6.2
 
 Example robot with laptop, cameras, and hooking system
 
