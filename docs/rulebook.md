@@ -109,7 +109,7 @@ Furthermore teams are free to either use any stationary computer to control the 
 
 | Name     | Image                                               |
 |-------------|-----------------------------------------------------|
-| 6x oliveTM [SERVO OLV-SRV01-S64](https://docs.olive-robotics.com/hardware/servo/servo.html) | ![5.png](/images/5.png "5.png") |
+| 5x oliveTM [SERVO OLV-SRV01-S64](https://docs.olive-robotics.com/hardware/servo/servo.html) | ![5.png](/images/5.png "5.png") |
 | 2x oliveTM [CAMERA OLV-CAM01-TP](https://docs.olive-robotics.com/hardware/camera/camera_01_tp.html) | <img src="/images/6.png" alt="6.png" width="190" /> |
 | 1x oliveTM [IMU OLV-IMU01-13D](https://docs.olive-robotics.com/hardware/imu/imu_01_13d_10x.html) | <img src="/images/7.png" alt="7.png" width="80" /> |
 | 4x oliveTM Omni Directional Wheels | ![8.png](/images/8.png "8.png") |
@@ -117,7 +117,7 @@ Furthermore teams are free to either use any stationary computer to control the 
 | 1x T-Slot Kit 20x20mm w/ connectors | ![10.png](/images/10.png "10.png") |
 | 1x T-Slot Kit 10x10mm w/ connectors | ![11.png](/images/11.png "11.png") |
 | 1x Set of USB-C Cables various lengths and 1x USB-C Hub | ![12.png](/images/12.png "12.png") |
-| 1x USB-C 65W PD Power Bank | <img src="/images/13.png" alt="13.png" width="150" /> |
+| 2x USB-C 65W PD Power Bank | <img src="/images/13.png" alt="13.png" width="150" /> |
 
 
 ###### 3.1.3 Simulation Content
