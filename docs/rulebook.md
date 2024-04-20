@@ -110,7 +110,7 @@ Furthermore teams are free to either use any stationary computer to control the 
 | Name     | Image                                               |
 |-------------|-----------------------------------------------------|
 | 5x oliveTM [SERVO OLV-SRV01-S64](https://docs.olive-robotics.com/hardware/servo/servo.html) | ![5.png](/images/5.png "5.png") |
-| 2x oliveTM [CAMERA OLV-CAM01-TP](https://docs.olive-robotics.com/hardware/camera/camera_01_tp.html) | <img src="/images/6.png" alt="6.png" width="190" /> |
+| 2x oliveTM [CAMERA OLV-CAM01-S](https://docs.olive-robotics.com/hardware/camera/camera_01_s.html) | <img src="/images/6.png" alt="6.png" width="190" /> |
 | 1x oliveTM [IMU OLV-IMU01-13D](https://docs.olive-robotics.com/hardware/imu/imu_01_13d_10x.html) | <img src="/images/7.png" alt="7.png" width="80" /> |
 | 4x oliveTM Omni Directional Wheels | ![8.png](/images/8.png "8.png") |
 | 12x oliveTM X-Bolt Module Connector | ![9.png](/images/9.png "9.png") |
