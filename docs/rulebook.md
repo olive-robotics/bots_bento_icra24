@@ -218,14 +218,11 @@ The robot's operation commences and concludes in the same square zone, strategic
 
 During the competition, there will be a maximum of six KLTs, each supported by 4x wheels for ease of movement. The robot's task involves pulling these KLTs to sort them into predefined locations. The starting position of each KLT within the arena is determined randomly, adding an element of unpredictability to the challenge. To facilitate identification and sorting, each KLT is equipped with an April Tag on both its front and back sides. These tags contain unique IDs, enabling the robot to accurately recognize and handle the KLTs according to the competition's requirements.
 
-KLTs might have different hights as shown below:
+Example of the KLT:
 
+<img src="/images/Wheel_PlasticBox_400х300_v2.png" alt="7.png" width="150" />
 
- |a     | b           |  c |
- |-------------|-------------------------|----------------------------|
- | <img src="/images/Wheel_PlasticBox_400х300_v2.png" alt="7.png" width="150" />         |       <img src="/images/2xWheel_PlasticBox_400х300_v2.png" alt="7.png" width="150" />                   |          <img src="/images/3xWheel_PlasticBox_400х300_v2.png" alt="7.png" width="150" />                   |
-
-⚠️ KLTs that are heavier will have a higher score weight and will be given priority in the sorting process. In this example (c = 3 > b = 2 > a = 1).
+<img src="/images/klt_real.jpg" alt="klt_real.jpg" width="150" />
 
 ###### 3.2.8.1 
 
@@ -350,7 +347,7 @@ Teams will be scored on the speed and efficiency of completing the KLT Transport
 
 | Challenge                | Task Completion Score | Extra Points for Sorting |
 |--------------------------|---------------------------------------------|--------------------------|
-| 6 KLTs Transport / Sorting           | if the team sort all 6 KLTs, **200** points extra            | **25** points per KLT  or **50** points per KLT with correct ID * KLT Height (1,2,3) | 
+| 6 KLTs Transport / Sorting           | if the team sort all 6 KLTs, **200** points extra            | **25** points per KLT  or **50** points per KLT with correct ID | 
 | Technical Challenge      | **150** points            |                                          |                       | 
 | Presentation             | **150** points            |                                          |                       | 
 
