@@ -5,9 +5,10 @@
 
 #### 📖 Release 
 
-- Versionv 1.1: 20 April 2024
-- Versionv 1.0: 05 March 2024
-- Versionv 0.7: 15 Feb 2024
+- Version 1.2: 24 April 2024
+- Version 1.1: 20 April 2024
+- Version 1.0: 05 March 2024
+- Version 0.7: 15 Feb 2024
 
 #### 1. Acknowledgments
 
@@ -117,7 +118,7 @@ Furthermore teams are free to either use any stationary computer to control the 
 | 1x T-Slot Kit 20x20mm w/ connectors | ![10.png](/images/10.png "10.png") |
 | 1x T-Slot Kit 10x10mm w/ connectors | ![11.png](/images/11.png "11.png") |
 | 1x Set of USB-C Cables various lengths and 1x USB-C Hub | ![12.png](/images/12.png "12.png") |
-| 2x USB-C 65W PD Power Bank | <img src="/images/13.png" alt="13.png" width="150" /> |
+| 2x USB-C 100W PD Power Bank | <img src="/images/battery_v2.png" alt="13.png" width="150" /> |
 
 
 ###### 3.1.3 Simulation Content
@@ -165,8 +166,6 @@ Example robot with laptop, cameras, and hooking system
 ###### 3.1.7 Behavior and Safety
 
 In general, all robots shall be operated with maximum safety in mind. Any robot operation must be such that a robot neither harms humans nor damages the environment. The used batteries shall be handled with care and all team members must be educated in the correct usage, charging and storage of the batteries of the team.
-
-All robots must have an emergency stop button. The emergency stop has to be a hard mechanism, that ensures that the energy transfer to all actuators is stopped immediately and the robot halts. The mechanism must be a red emergency stop button that is clearly visible, easily accessible and per wire attached to the robot. It has to be easy accessible from at least 3 sides of the robot. A wireless software-basedemergency stop button is optional but not sufficient.
 
 ##### 3.2 Arena Example Environemnt
 
@@ -313,7 +312,6 @@ The run phase regularly ends when:
 - The teamleader says ’stop’
 The run phase ends early when:
 - The robot has caused a second major collision
-- The emergency stop button had to be pressed before a restart call
 - A team was identified to be cheating
 
 The end of a run phase must be announced by the EC by saying ’end’. Once this happened, the

@@ -1,5 +1,7 @@
 # Robot Base Tutorial
 
+## A) Mechanics 
+
 🪜 **Step1:**
 Take one motor and add the boltx to it.
 
@@ -40,3 +42,14 @@ Install two other T-frame structures similar to previus step to have a cube shap
 🪜 **Step10:**
 Make sure you install the wheels correctly.
 ![Step 10](images/11.JPG)
+
+## B) Electronics and Components
+
+🪜 **Step11:**
+![Step 11](images/ant_wire.png)
+
+🪜 **Step12:**
+![Step 11](images/antm.gif)
+
+## C) Software
+
