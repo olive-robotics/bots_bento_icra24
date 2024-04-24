@@ -46,9 +46,11 @@ Make sure you install the wheels correctly.
 ## B) Electronics and Components
 
 🪜 **Step11:**
+Make sure you follow the wire connection as shown here:
 ![Step 11](images/ant_wire2.png)
 
 🪜 **Step12:**
+You should be able to move the robot as the video below:
 ![Step 11](images/antm.gif)
 
 ## C) Software
