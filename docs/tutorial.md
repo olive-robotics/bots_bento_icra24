@@ -46,7 +46,7 @@ Make sure you install the wheels correctly.
 ## B) Electronics and Components
 
 🪜 **Step11:**
-![Step 11](images/ant_wire.png)
+![Step 11](images/ant_wire2.png)
 
 🪜 **Step12:**
 ![Step 11](images/antm.gif)
