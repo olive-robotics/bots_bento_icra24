@@ -55,3 +55,17 @@ You should be able to move the robot as the video below:
 
 ## C) Software
 
+#### C.1) Network Bridge Setup
+
+We recomend to use a bridge to enable a universal network interface between all olive components. To do that please follow the Networking documentation available here:
+
+https://docs.olive-robotics.com/software/olixos/network.html#solution-2-network-bridge
+
+#### C.2) ROS2 Python examples
+
+To control the robot base you can follow the example provided here:
+
+https://github.com/olive-robotics/bots_bento_icra24/blob/main/src/base/base_control.py
+
+
+
