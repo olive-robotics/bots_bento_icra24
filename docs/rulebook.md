@@ -236,7 +236,7 @@ Example of the KLT:
 
 To carry the KLT we suggest you build your own hook like the picture below:
 
-![3.png](/images/hook_example.jpg "4.png")
+![3.png](/images/hook_example.JPG "4.png")
 
 ###### 3.2.9 April Tag 
 
