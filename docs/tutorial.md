@@ -1,6 +1,12 @@
-# Robot Base Tutorial
+# Robot Building Tutorial
 
 ## A) Mechanics 
+
+🪜 **Step0:**
+
+Prepare the boltx connector.
+
+![Step 0](images/boltx.JPG)
 
 🪜 **Step1:**
 Take one motor and add the boltx to it.
@@ -53,6 +59,32 @@ Make sure you follow the wire connection as shown here:
 You should be able to move the robot as the video below:
 ![Step 11](images/antm.gif)
 
+🪜 **Step13:**
+Make sure you have connected the splitter correctly for base motors.
+
+![Step 11](images/splitter.JPG)
+
+![Step 11](images/motor_12v_example.JPG)
+
+🪜 **Step14:**
+Example IMU and Camera components. You are free to install them in a way you like on the robot:
+
+![Step 11](images/imu_camera.JPG)
+
+🪜 **Step15:**
+Now you can build a innovative hook for KLT sorting. You will need the 5th servo motor to actuate the hook system in position mode. Here is an example:
+
+You can use the passive parts to extend the robot:
+
+![Step 11](images/passive.JPG)
+
+![Step 11](images/robot_example.JPG)
+
+![Step 11](images/robot_klt_example.JPG)
+
+![Step 11](images/hook_example.JPG)
+
+
 ## C) Software
 
 #### C.1) Network Bridge Setup
@@ -66,6 +98,7 @@ https://docs.olive-robotics.com/software/olixos/network.html#solution-2-network-
 To control the robot base you can follow the example provided here:
 
 https://github.com/olive-robotics/bots_bento_icra24/blob/main/src/base/base_control.py
+
 
 
 
