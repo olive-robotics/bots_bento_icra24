@@ -171,6 +171,10 @@ In general, all robots shall be operated with maximum safety in mind. Any robot 
 
 ![3.png](/images/a1-3.png "3.png")
 
+We will extend the tags to make the localization easier.
+
+![3.png](/images/grid.png "3.png")
+
 ###### 3.2.1 Floor
 
 The floor is made of some firm material. This includes among others floors made of concrete, screed, timber, plywood, chipboard, laminated boards, linoleum, PVC flooring, or carpet. 
@@ -226,9 +230,13 @@ Example of the KLT:
 
 ###### 3.2.8.1 
 
-Hooking system and the installed April tag example. 2x April Tags will be installed on each side and on each KLT. In this example for two KLT it will be 16 Tags. The id for all Tags will be same and you can identify the side or front from distance between each April Tag. 
+2x April Tags will be installed on each side and on each KLT. In this example for two KLT it will be 16 Tags. The id for all Tags will be same and you can identify the side or front from distance between each April Tag. 
 
-![3.png](/images/a4-2.png "4.png")
+![3.png](/images/klt_simple.png "4.png")
+
+To carry the KLT we suggest you build your own hook like the picture below:
+
+![3.png](/images/hook_example.jpg "4.png")
 
 ###### 3.2.9 April Tag 
 
