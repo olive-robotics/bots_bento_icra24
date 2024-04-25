@@ -31,9 +31,9 @@ Germany and Japan have excellent robotics researchers and industrial robotics co
 
 ## ⚠️ Important Announcement (2)
 
-The first online meeting for the Bots and Bento competition happened on **April 25 at 15:00 Germany Time**. 
+The first Q/A online meeting for the Bots and Bento competition happened on **April 25 at 15:00 Germany Time**. 
 
-You can watch the meeting recording offline if you missed it.
+If you missed it! you can watch the meeting recording offline here:
 
 - LINK: [Replay Now](https://drive.google.com/file/d/1Qdmai-mTGZM-Lh5DkYNu8mXWgkOoNe8n/view?usp=sharing)
 
