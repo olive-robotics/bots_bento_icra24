@@ -226,11 +226,11 @@ Example of the KLT:
 
 
 
-<img src="/images/klt/2.jpg" alt="klt_real.jpg" width="250" />
+<img src="/images/klt/2.jpg" alt="klt_real.jpg" width="350" />
 
-<img src="/images/klt/3.jpg" alt="7.png" width="250" />
+<img src="/images/klt/3.jpg" alt="7.png" width="350" />
 
-<img src="/images/klt/4.jpg" alt="klt_real.jpg" width="250" />
+<img src="/images/klt/4.jpg" alt="klt_real.jpg" width="350" />
 
 ###### 3.2.8.1 
 
