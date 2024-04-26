@@ -224,9 +224,13 @@ During the competition, there will be a maximum of six KLTs, each supported by 4
 
 Example of the KLT:
 
-<img src="/images/Wheel_PlasticBox_400х300_v2.png" alt="7.png" width="150" />
 
-<img src="/images/klt_real.jpg" alt="klt_real.jpg" width="150" />
+
+<img src="/images/klt/2.jpg" alt="klt_real.jpg" width="250" />
+
+<img src="/images/klt/3.jpg" alt="7.png" width="250" />
+
+<img src="/images/klt/4.jpg" alt="klt_real.jpg" width="250" />
 
 ###### 3.2.8.1 
 
@@ -234,7 +238,7 @@ Example of the KLT:
 
 ![3.png](/images/klt_simple.png "4.png")
 
-To carry the KLT we suggest you build your own hook like the picture below:
+To carry the KLT we suggest you build your own hook like the picture below (in the picture the KLT is the bigger one, but we will use the small version):
 
 ![3.png](/images/hook_example.JPG "4.png")
 
