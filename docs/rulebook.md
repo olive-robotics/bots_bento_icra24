@@ -245,16 +245,15 @@ To carry the KLT we suggest you build your own hook like the picture below (in t
 
 ###### 3.2.9 April Tag 
 
-April tags might be used in the competition. This should allow teams to focus on other areas than object recognition by simplifying the detection of KLTs. 
+April tags will be used in the competition. This should allow teams to focus on other areas than object recognition by simplifying the detection of KLTs. 
 
-The April Tags measure 40mm × 40mm and have an encoding taken from the 36h11 April Tag family, including a 1bit black and 1bit white border.
+The April Tags measure [200mm × 200mm (big)](https://github.com/rgov/apriltag-pdfs/tree/main/tag36h11/a4/200mm) or [100mm x 100mm (small)](https://github.com/rgov/apriltag-pdfs/tree/main/tag36h11/a4/100mm) and have an encoding taken from the 36h11 April Tag family, including a 1bit black and 1bit white border.
 
-<img src="/images/15.png" alt="7.png" width="200" />
+We will use the small tags for the KLTs and depeneds on the situation (big or small) for the grid of the ground.
 
-April Tags can be easy generated. The usage of any ROS package to identify the April Tag is allowed. For example the [April Tag ROS](https://wiki.ros.org/apriltag_ros) package can easy be adapted to be used within the competition. Example April Tags out of the April Tag Family 36h11 are shown:
+April Tags can be easy generated. Example April Tags out of the April Tag Family 36h11 are shown:
 
 <img src="/images/16.png" alt="7.png" width="500" />
-
 
 ⚠️ Pritable A4 size (36h11):
 https://github.com/rgov/apriltag-pdfs
@@ -264,6 +263,19 @@ Open source implementation for Olive Camera is available in the camera playgroun
 https://github.com/olive-robotics/olv_camera_tpu_playground_py
 
 <img src="/images/tag.gif" alt="7tag.gif" width="400" />
+
+April tag detection will be preinstalled in the cameras and they will publish the tag information by default. The message type for April tags will be standard [apriltag_msgs](https://github.com/christianrauch/apriltag_msgs).
+
+```
+string family
+int32 id
+int32 hamming
+float32 goodness
+float32 decision_margin
+Point centre                    # centre in (x,y) pixel coordinates
+Point[4] corners                # corners of tag ((x1,y1),(x2,y2),...)
+float64[9] homography           # 3x3 row-major homography matrix
+```
 
 #### 4. Competition
 The competition is split into three runs for each team. In the first run, the arena is free of obstacles (other than the KLTs themselves). The task is for the robot to collect a KLT and carry to a predefined location. 
