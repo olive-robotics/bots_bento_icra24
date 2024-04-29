@@ -217,7 +217,7 @@ The robot's operation commences and concludes in the same square zone, strategic
 
 ###### 3.2.8 KLTs
 
-During the competition, there will be a maximum of six KLTs, each supported by 4x wheels for ease of movement. The robot's task involves pulling these KLTs to sort them into predefined locations. The starting position of each KLT within the arena is determined randomly, adding an element of unpredictability to the challenge. To facilitate identification and sorting, each KLT is equipped with an April Tag on both its front and back sides. These tags contain unique IDs, enabling the robot to accurately recognize and handle the KLTs according to the competition's requirements.
+During the competition, there will be a maximum of six KLTs, each supported by 4x wheels for ease of movement. The robot's task involves pulling these KLTs to sort them into predefined locations. The starting position of each KLT within the arena is determined randomly, adding an element of unpredictability to the challenge. To facilitate identification and sorting, each KLT is equipped with overal 8x AprilTags. These tags contain unique IDs, enabling the robot to accurately recognize and handle the KLTs according to the competition's requirements.
 
 Example of the KLT:
 
@@ -233,15 +233,15 @@ To carry the KLT we suggest you build your own hook like the picture below (in t
 
 ![3.png](/images/hook_example.JPG "4.png")
 
-###### 3.2.9 April Tag 
+###### 3.2.9 AprilTag 
 
-April tags will be used in the competition. This should allow teams to focus on other areas than object recognition by simplifying the detection of KLTs. 
+AprilTags will be used in the competition. This should allow teams to focus on other areas than object recognition by simplifying the detection of KLTs. 
 
-The April Tags measure [200mm × 200mm (big)](https://github.com/rgov/apriltag-pdfs/tree/main/tag36h11/a4/200mm) or [100mm x 100mm (small)](https://github.com/rgov/apriltag-pdfs/tree/main/tag36h11/a4/100mm) and have an encoding taken from the 36h11 April Tag family, including a 1bit black and 1bit white border.
+The AprilTags measure [200mm × 200mm (big)](https://github.com/rgov/apriltag-pdfs/tree/main/tag36h11/a4/200mm) or [100mm x 100mm (small)](https://github.com/rgov/apriltag-pdfs/tree/main/tag36h11/a4/100mm) and have an encoding taken from the 36h11 AprilTag family, including a 1bit black and 1bit white border.
 
 We will use the small tags for the KLTs and depeneds on the situation (big or small) for the grid of the ground.
 
-April Tags can be easy generated. Example April Tags out of the April Tag Family 36h11 are shown:
+AprilTags can be easy generated. Example AprilTags out of the AprilTag Family 36h11 are shown:
 
 <img src="/images/16.png" alt="7.png" width="500" />
 
@@ -254,7 +254,7 @@ https://github.com/olive-robotics/olv_camera_tpu_playground_py
 
 <img src="/images/tag.gif" alt="7tag.gif" width="400" />
 
-April tag detection will be preinstalled in the cameras and they will publish the tag information by default. The message type for April tags will be standard [apriltag_msgs](https://github.com/christianrauch/apriltag_msgs).
+AprilTag detection will be preinstalled in the cameras and they will publish the tag information by default. The message type for AprilTags will be standard [apriltag_msgs](https://github.com/christianrauch/apriltag_msgs).
 
 ```
 string family
@@ -269,7 +269,7 @@ float64[9] homography           # 3x3 row-major homography matrix
 
 ###### 3.2.9.1 
 
-⚠️ 2x April Tags will be installed on each side and on each KLT. In this example for a KLT it will be 8 Tags. The id for all Tags will be same and you can identify the side or front from distance between each April Tag. 
+⚠️ 2x AprilTags will be installed on each side and on each KLT. In this example for a KLT it will be 8 Tags. The id for all Tags will be same and you can identify the side or front from distance between each AprilTag. 
 
 ![3.png](/images/klt_simple.png "4.png")
 
