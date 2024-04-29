@@ -235,7 +235,7 @@ Example of the KLT:
 
 ###### 3.2.8.1 
 
-2x April Tags will be installed on each side and on each KLT. In this example for two KLT it will be 16 Tags. The id for all Tags will be same and you can identify the side or front from distance between each April Tag. 
+2x April Tags will be installed on each side and on each KLT. In this example for a KLT it will be 8 Tags. The id for all Tags will be same and you can identify the side or front from distance between each April Tag. 
 
 ![3.png](/images/klt_simple.png "4.png")
 
