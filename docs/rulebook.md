@@ -117,6 +117,7 @@ Furthermore teams are free to either use any stationary computer to control the 
 | 12x oliveTM X-Bolt Module Connector | ![9.png](/images/9.png "9.png") |
 | 1x T-Slot Kit 20x20mm w/ connectors | ![10.png](/images/10.png "10.png") |
 | 1x T-Slot Kit 10x10mm w/ connectors | ![11.png](/images/11.png "11.png") |
+| 1x passive part for the hook system | ![passive.png](/images/passive.png "passive.png") |
 | 1x Set of USB-C Cables various lengths and 1x USB-C Hub | ![12.png](/images/12.png "12.png") |
 | 2x USB-C 100W PD Power Bank | <img src="/images/battery_v2.png" alt="13.png" width="150" /> |
 
