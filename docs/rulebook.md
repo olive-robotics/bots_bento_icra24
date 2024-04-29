@@ -172,10 +172,6 @@ In general, all robots shall be operated with maximum safety in mind. Any robot 
 
 ![3.png](/images/a1-3.png "3.png")
 
-We will extend the tags to make the localization easier.
-
-![3.png](/images/grid.png "3.png")
-
 ###### 3.2.1 Floor
 
 The floor is made of some firm material. This includes among others floors made of concrete, screed, timber, plywood, chipboard, laminated boards, linoleum, PVC flooring, or carpet. 
@@ -233,12 +229,6 @@ Example of the KLT:
 
 <img src="/images/klt/4.jpg" alt="klt_real.jpg" width="350" />
 
-###### 3.2.8.1 
-
-2x April Tags will be installed on each side and on each KLT. In this example for a KLT it will be 8 Tags. The id for all Tags will be same and you can identify the side or front from distance between each April Tag. 
-
-![3.png](/images/klt_simple.png "4.png")
-
 To carry the KLT we suggest you build your own hook like the picture below (in the picture the KLT is the bigger one, but we will use the small version):
 
 ![3.png](/images/hook_example.JPG "4.png")
@@ -276,6 +266,16 @@ Point centre                    # centre in (x,y) pixel coordinates
 Point[4] corners                # corners of tag ((x1,y1),(x2,y2),...)
 float64[9] homography           # 3x3 row-major homography matrix
 ```
+
+###### 3.2.9.1 
+
+⚠️ 2x April Tags will be installed on each side and on each KLT. In this example for a KLT it will be 8 Tags. The id for all Tags will be same and you can identify the side or front from distance between each April Tag. 
+
+![3.png](/images/klt_simple.png "4.png")
+
+⚠️ We will extend the tags to make the localization easier. We will use either small or big tags for the ground.
+
+![3.png](/images/grid.png "3.png")
 
 #### 4. Competition
 The competition is split into three runs for each team. In the first run, the arena is free of obstacles (other than the KLTs themselves). The task is for the robot to collect a KLT and carry to a predefined location. 
