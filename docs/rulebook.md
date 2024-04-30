@@ -123,6 +123,8 @@ Furthermore teams are free to either use any stationary computer to control the 
 
 ![set.png](/images/set.png "set.png")
 
+In the picture we have 6 servo motors. One is backup.
+
 ###### 3.1.3 Simulation Content
 
 To be able to simulate the components in any simulation software the Universal Robot Description (URDF) files are available from this git repository.
