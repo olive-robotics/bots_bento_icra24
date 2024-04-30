@@ -272,7 +272,14 @@ float64[9] homography           # 3x3 row-major homography matrix
 
 It is also possible to change the camera lenses. Here we compaired different supported lenses:
 
-![2.png](/images/lens.png "2.png")
+## Supported Camera Lenses 
+
+| Lens                               | Focal Length (mm) | Max Aperture | Sensor Size  | Features            | Predicted FOV (°) |
+|------------------------------------|--------------------|--------------|--------------|---------------------|-------------------|
+| 2.8-12mm 1:1.4 IR                  | 2.8-12             | f/1.4        | 1/2.7"       | Manual focus, zoom  | ~28° - ~90°       |
+| Far-view                           | 2.6                | f/2.6        | 1/4"         | N/A                 | ~55°              |
+| Low-distortion Lens                | 3.6                | N/A          | 1/2.7"       | N/A                 | ~60°              |
+| Fisheye Lens                       | 10 (estimated)     | f/2.8 (estimated) | 1/2.3" (estimated) | N/A              | 187°              |
 
 ###### 3.2.9.1 
 
