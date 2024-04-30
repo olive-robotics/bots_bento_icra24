@@ -121,6 +121,7 @@ Furthermore teams are free to either use any stationary computer to control the 
 | 1x Set of USB-C Cables various lengths and 1x USB-C Hub | ![12.png](/images/12.png "12.png") |
 | 2x USB-C 100W PD Power Bank | <img src="/images/battery_v2.png" alt="13.png" width="150" /> |
 
+![set.png](/images/set.png "set.png")
 
 ###### 3.1.3 Simulation Content
 
@@ -149,6 +150,8 @@ Each team should have a working laptop with [Ubuntu 22.04 Desktop](https://ubunt
 ![2.png](/images/2.png "2.png")
 
 You will be provided with the Olive [ANT kit](https://docs.olive-robotics.com/kits/ant/ant.html) as the base for your robot. To enhance its capabilities, you are tasked with creatively installing an additional 2 cameras and 2 actuators. This modification aims to transform the passive base into a robot with high-level understanding and picking capabilities, enabling it to effectively transport and sort KLTs within the competition arena. Your innovative integration of these components will be crucial in equipping the robot with the necessary tools to navigate, identify, and manipulate objects according to the competition's requirements.
+
+<img src="/images/robot.png" alt="ant.png" width="400" />
 
 <img src="/images/antm.gif" alt="ant.png" width="400" />
 
@@ -266,6 +269,10 @@ Point centre                    # centre in (x,y) pixel coordinates
 Point[4] corners                # corners of tag ((x1,y1),(x2,y2),...)
 float64[9] homography           # 3x3 row-major homography matrix
 ```
+
+It is also possible to change the camera lenses. Here we compaired different supported lenses:
+
+![2.png](/images/lens.png "2.png")
 
 ###### 3.2.9.1 
 
