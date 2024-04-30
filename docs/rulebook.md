@@ -414,9 +414,9 @@ Teams will be ranked based on their overall total score accumulated over the two
 #### 6. References
 
 - https://docs.olive-robotics.com
-- www.olive-robotics.com
-- www.ros.org
-- www.2024.ieee-icra.org
+- https://www.olive-robotics.com/
+- https://www.ros.org/
+- https://2024.ieee-icra.org/
 
 
 
