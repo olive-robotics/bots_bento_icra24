@@ -240,7 +240,7 @@ To carry the KLT we suggest you build your own hook like the picture below (in t
 
 AprilTags will be used in the competition. This should allow teams to focus on other areas than object recognition by simplifying the detection of KLTs. 
 
-The AprilTags measure [200mm × 200mm (big)](https://github.com/rgov/apriltag-pdfs/tree/main/tag36h11/a4/200mm) or [100mm x 100mm (small)](https://github.com/rgov/apriltag-pdfs/tree/main/tag36h11/a4/100mm) and have an encoding taken from the 36h11 AprilTag family, including a 1bit black and 1bit white border.
+The AprilTags measur [100mm x 100mm](https://github.com/rgov/apriltag-pdfs/tree/main/tag36h11/a4/100mm) or smaller and have an encoding taken from the 36h11 AprilTag family, including a 1bit black and 1bit white border.
 
 We will use the small tags for the KLTs and depeneds on the situation (big or small) for the grid of the ground.
 
