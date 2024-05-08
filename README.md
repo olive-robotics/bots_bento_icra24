@@ -37,6 +37,14 @@ If you missed it! you can watch the meeting recording offline here:
 
 - LINK: [Replay Now](https://drive.google.com/file/d/1Qdmai-mTGZM-Lh5DkYNu8mXWgkOoNe8n/view?usp=sharing)
 
+## ⚠️ Important Announcement (3)
+
+The example robot bag file dataset has been updated and is now available to provide a clearer understanding of the challenge.
+
+![2.png](/images/cover_real.gif "2.gif")
+
+- LINK: [ROS 2 Bag](https://drive.google.com/drive/folders/1z1DCSCu2CuzcBHeWcRi_CdrQcOw3N_GW?usp=sharing)
+
 ## Challenge Description
 Within the Bots & Bento Challenge, competitors are tasked with designing and programming a robot that is able to locate, transport and sort standardized palettes containing the Japanese delicacy Bento. The rules are simple: given a pre-defined set of available hardware components, design your own robot and let it carry and sort palettes as high and as efficiently as possible.
 

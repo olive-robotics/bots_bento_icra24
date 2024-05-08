@@ -5,6 +5,7 @@
 
 #### 📖 Release 
 
+- Version 1.3: 08 May 2024
 - Version 1.2: 24 April 2024
 - Version 1.1: 20 April 2024
 - Version 1.0: 05 March 2024
