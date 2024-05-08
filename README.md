@@ -39,7 +39,7 @@ If you missed it! you can watch the meeting recording offline here:
 
 ## ⚠️ Important Announcement (3)
 
-The example robot bag file dataset has been updated and is now available to provide a clearer understanding of the challenge.
+The example robot bag file dataset has been updated and is now available to provide a clearer understanding of the challenge. (Please note that the KLT size currently showcased is the larger version, used solely for demonstration purposes. For the actual challenge, we will be using the official smaller version, which measures 30x40 cm).
 
 ![2.png](/images/cover_real.gif "2.gif")
 
