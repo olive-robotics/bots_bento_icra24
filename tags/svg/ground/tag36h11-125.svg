@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="45mm" height="45mm" viewBox="0 0 100 100">
+<path style="fill:#ffffff; stroke:none;" d="M0 0L0 100L100 100L100 0L0 0z"></path>
+<path style="fill:#000000; stroke:none;" d="M10 10L10 90L90 90L90 10L10 10z"></path>
+<path style="fill:#ffffff; stroke:none;" d="M20 20L20 30L30 30L30 20L20 20M40 20L40 30L50 30L50 20L40 20M60 30L60 40L70 40L70 30L60 30M40 40L40 50L20 50L20 80L30 80L30 60L50 60L50 70L60 70L60 80L70 80L70 70L80 70L80 50L70 50L70 60L50 60L50 40L40 40z"></path>
+</svg>
