@@ -223,7 +223,7 @@ The robot's operation commences and concludes in the same square zone, strategic
 
 ###### 3.2.8 KLTs
 
-During the competition, there will be a maximum of six KLTs, each supported by 4x wheels for ease of movement. The robot's task involves pulling these KLTs to sort them into predefined locations. The starting position of each KLT within the arena is determined randomly, adding an element of unpredictability to the challenge. To facilitate identification and sorting, each KLT is equipped with overal 8x AprilTags. These tags contain unique IDs, enabling the robot to accurately recognize and handle the KLTs according to the competition's requirements.
+During the competition, there will be a maximum of five KLTs, each supported by 4x wheels for ease of movement. The robot's task involves pulling these KLTs to sort them into predefined locations. The starting position of each KLT within the arena is determined randomly, adding an element of unpredictability to the challenge. To facilitate identification and sorting, each KLT is equipped with overal 8x AprilTags. These tags contain unique IDs, enabling the robot to accurately recognize and handle the KLTs according to the competition's requirements.
 
 Example of the KLT:
 
@@ -286,7 +286,7 @@ It is also possible to change the camera lenses. Here we compaired different sup
 
 ###### 3.2.9.1 
 
-⚠️ 2x AprilTags will be installed on each side and on each KLT. In this example for a KLT it will be 8 Tags. The id for all Tags will be same and you can identify the side or front from distance between each AprilTag. 
+⚠️ 2x AprilTags will be installed on each side and on each KLT. In this example for a KLT it will be 8 Tags. The id for all Tags will be same and you can identify the side or front from distance between each AprilTag. KLT will have the ID from 1 to 5. 
 
 ![3.png](/images/klt3.png "4.png")
 
@@ -370,7 +370,7 @@ During a run, the teamleader can restart the test execution once. Therefore he/s
 
 ##### 4.11 Challenges
 ###### 4.11.1 🏁 KLT Transport
-In the first run, teams will navigate their Autonomous Mobile Robot (AMR) in an arena free of obstacles, except for the KLTs themselves. The robot must select any one of the six KLTs and transport it to a designated park zone. The task is to be completed within a maximum time of 15 minutes. Completing this task will grant the team the full score for this challenge, with time efficiency being a crucial factor.
+In the first run, teams will navigate their Autonomous Mobile Robot (AMR) in an arena free of obstacles, except for the KLTs themselves. The robot must select any one of the five KLTs and transport it to a designated park zone. The task is to be completed within a maximum time of 15 minutes. Completing this task will grant the team the full score for this challenge, with time efficiency being a crucial factor.
 
 While placing the KLTs in any park zone is required, teams will earn extra points for parking the KLTs in order of their ID. 
 
@@ -381,7 +381,7 @@ Teams have the opportunity to present a technical showcase demonstrating a key f
 Each team has 10 minutes to pitch their approach to solving the challenges. They will introduce their team and explain their strategies and solutions. The presentation may be recorded and published online to highlight the open nature of the competition and share findings and results. Scientific achivement / engineering solution 30%, overal presentation skills 30%, Teamwork has 40% of the points. 
 
 #### 5. Scoring and Ranking 
-The competition spans two days, with a total of 12 hours available for all runs and the award ceremony. There are six teams in total.
+The competition spans three days, with a total of 12 hours available for all runs and the award ceremony. There are seven teams in total.
 
 ##### 5.1 Scoring
 ###### 5.1.1 Scores
@@ -389,7 +389,7 @@ Teams will be scored on the speed and efficiency of completing the KLT Transport
 
 | Challenge                | Task Completion Score | Extra Points for Sorting |
 |--------------------------|---------------------------------------------|--------------------------|
-| 6 KLTs Transport / Sorting           | if the team sort all 6 KLTs, **200** points extra            | **25** points per KLT  or **50** points per KLT with correct ID | 
+| 5 KLTs Transport / Sorting           | if the team sort all 5 KLTs, **200** points extra            | **25** points per KLT  or **50** points per KLT with correct ID | 
 | Technical Challenge      | **150** points            |                                          |                       | 
 | Presentation             | **150** points            |                                          |                       | 
 
