@@ -53,7 +53,7 @@ Make sure you install the wheels correctly.
 
 🪜 **Step11:**
 Make sure you follow the wire connection as shown here:
-![Step 11](images/ant_wire3.png)
+![Step 11](images/ant_wire4.png)
 
 🪜 **Step12:**
 You should be able to move the robot as the video below:
