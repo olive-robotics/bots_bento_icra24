@@ -292,7 +292,7 @@ It is also possible to change the camera lenses. Here we compaired different sup
 
 ⚠️ We will extend the tags to make the localization easier. We will use either small or big tags for the ground.
 
-![3.png](/images/grid.png "3.png")
+![arena2.png](/images/arena2.png "arena2.png")
 
 #### 4. Competition
 The competition is split into three runs for each team. In the first run, the arena is free of obstacles (other than the KLTs themselves). The task is for the robot to collect a KLT and carry to a predefined location. 
