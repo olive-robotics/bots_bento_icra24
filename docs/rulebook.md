@@ -288,7 +288,7 @@ It is also possible to change the camera lenses. Here we compaired different sup
 
 ⚠️ 2x AprilTags will be installed on each side and on each KLT. In this example for a KLT it will be 8 Tags. The id for all Tags will be same and you can identify the side or front from distance between each AprilTag. 
 
-![3.png](/images/klt_simple.png "4.png")
+![3.png](/images/klt3.png "4.png")
 
 ⚠️ We will extend the tags to make the localization easier. We will use either small or big tags for the ground.
 
