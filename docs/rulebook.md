@@ -5,6 +5,7 @@
 
 #### 📖 Release 
 
+- Version 1.4: 13 May 2024 
 - Version 1.3: 08 May 2024
 - Version 1.2: 24 April 2024
 - Version 1.1: 20 April 2024
@@ -176,7 +177,7 @@ In general, all robots shall be operated with maximum safety in mind. Any robot 
 
 ##### 3.2 Arena Example Environemnt
 
-![3.png](/images/a1-3.png "3.png")
+![3.png](/images/map2.png "3.png")
 
 ###### 3.2.1 Floor
 
