@@ -60,9 +60,9 @@ You should be able to move the robot as the video below:
 ![Step 11](images/antm.gif)
 
 🪜 **Step13:**
-Make sure you have connected the splitter correctly for base motors.
+Make sure you have connected the splitter correctly for base motors. Follow the steps, first connect the servo side, then data and at the end the power. 
 
-![Step 11](images/splitter.JPG)
+![Step 11](images/splitter2.png)
 
 ![Step 11](images/motor_12v_example.JPG)
 
