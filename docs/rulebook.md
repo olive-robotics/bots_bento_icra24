@@ -375,6 +375,8 @@ In the first run, teams will navigate their Autonomous Mobile Robot (AMR) in an 
 
 While placing the KLTs in any park zone is required, teams will earn extra points for parking the KLTs in order of their ID. 
 
+The team can perfrom the task manually by using a joystick or keyboard. This can be decided before the thask execuation by team leader. The score for manually performing the task will be multiplied with 
+
 ###### 4.11.2 🏁 Technical Challenge
 Teams have the opportunity to present a technical showcase demonstrating a key feature or creative aspect of their system. Proposals can include handling static or dynamic obstacles, such as people moving within the arena, to exhibit the robot's capabilities in max 10 minutes. The creativity and problem solving has 40%, running a complete task is 30%, and robot design is in general has 30%. 
 
@@ -388,11 +390,7 @@ The competition spans three days, with a total of 12 hours available for all run
 ###### 5.1.1 Scores
 Teams will be scored on the speed and efficiency of completing the KLT Transport and KLT Sorting challenges. Extra points are awarded for stacking KLTs in order of their ID during the sorting challenge. 
 
-| Challenge                | Task Completion Score | Extra Points for Sorting |
-|--------------------------|---------------------------------------------|--------------------------|
-| 5 KLTs Transport / Sorting           | if the team sort all 5 KLTs, **200** points extra            | **25** points per KLT  or **50** points per KLT with correct ID | 
-| Technical Challenge      | **150** points            |                                          |                       | 
-| Presentation             | **150** points            |                                          |                       | 
+![3.png](/images/score.png "4.png")        
 
 ###### 5.1.2 🚫 Penalties
 Penalties are incurred for various infractions, including:
@@ -401,7 +399,6 @@ Penalties are incurred for various infractions, including:
 
 | Infraction               | Penalty Points |
 |--------------------------|----------------|
-| Exiting the arena (and come back)       | -25 points      |
 | Up to three reset     | 0 points      |
 | Each additional reset    | -25 points each |
 
