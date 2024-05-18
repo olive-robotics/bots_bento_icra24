@@ -16,6 +16,13 @@ Germany and Japan have excellent robotics researchers and industrial robotics co
 | Evolonic       | 🇩🇪 Germany       | Friedrich-Alexander-Universität Erlangen, Fraunhofer IISB |
 | INNOVATORS | 🇮🇳 India         | PSG College of Technology, VIT Chennai               |
 
+## 🏆 Finalist 
+
+| Award | Team Name      | Country       | Affiliation                                           |
+|----------|----------------|---------------|-------------------------------------------------------|
+|1st| 100TemperedS   | 🇯🇵 Japan         | The University of Tokyo                               |
+|2nd| ByteStackers   | 🇩🇪 Germany       | RWTH Aachen University                                |
+|3rd| UoZRobotics    | 🇿🇼 Zimbabwe      | University of Zimbabwe                                |
 
 ## ⚠️ Important Announcement (1)
 
