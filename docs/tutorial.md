@@ -66,6 +66,8 @@ Make sure you have connected the splitter correctly for base motors. Follow the 
 
 ![Step 11](images/motor_12v_example.JPG)
 
+![Step 11](images/daisy_chain.gif)
+
 🪜 **Step14:**
 Example IMU and Camera components. You are free to install them in a way you like on the robot:
 
