@@ -62,8 +62,10 @@ You should be able to move the robot as the video below:
 🪜 **Step13:**
 Make sure you have connected the splitter correctly for base motors. Follow the steps, first connect the servo side, then data and at the end the power. 
 
+splitter version 1.0
 ![Step 11](images/splitter2.png)
 
+splitter version 2.0
 ![Step 11](images/motor_12v_example.JPG)
 
 ![Step 11](images/daisy_chain.gif)
